@@ -1,0 +1,2496 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>首页</title>
+		<link rel="stylesheet" href="css/public.css">
+		<link rel="stylesheet" href="css/index.css">
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/public.js"></script>
+		<script src="js/index.js"></script>
+	</head>
+
+	<body>
+		<div class="wrap"></div>
+		<div class="tcImg">
+			<span class="close"></span>
+			<a href="#"></a>
+		</div>
+		<div id='top-lead'>
+			<div class="box1-wrap">
+				<a title="顶通" href="#" target="_blank"></a>
+				<!--需要对a进行操作才能跳转如click事件-->
+			</div>
+		</div>
+		<div id="header">
+			<div class="header-content">
+				<ul class='header-left '>
+					<li class="header-left-li1"><i class="icon-home"></i>
+						<a href="#">中酒首页</a>
+					</li>
+					<li>Hi,欢迎来中酒</li>
+					<li>
+						<a href="#">请登录</a>
+					</li>
+					<li>
+						<a href="#" class='header-left-lastli'>注册</a>
+					</li>
+				</ul>
+				<ul class="header-right">
+					<li><i class="header-right-li1"></i>
+						<a href="#">我的中酒</a>
+					</li>
+					<li><i class="icon-goweb"></i>
+						<a href="#">手机版</a>
+					</li>
+					<li>
+						<a href="#">帮助中心</a>
+					</li>
+					<li><i class="icon-call"></i>订购热线：<strong>400-798-9999</strong></li>
+					<li>
+						<a href="#"><strong>【重要公告】</strong></a>
+					</li>
+					<li>
+						<span class="weibo-img">
+							<img width="30" height="30" src="img/weibo.png">
+							<img class="weibo" src="img/weibo2.png" >
+						</span>
+					</li>
+					<li>
+						<span class="weixin-img">
+							<img width="20" height="20" src="img/weixin.png">
+							<img class="weixina" src="img/weixin2.jpg" >
+						</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="logowrap">
+			<div class='logo fl'>
+				<a href='#' class="logo-a"></a>
+				<div class="gif">
+					<a href="#">
+						<img src='img/0919gif.gif' />
+					</a>
+				</div>
+			</div>
+			<div class="search_box fl">
+				<div class='search_txtwrap fl'>
+					<input type="text" value="" class="search_txt" id="searchInput">
+					<ul class="search_list" id="searchResult">
+
+					</ul>
+				</div>
+				<div class="search_btnwrap fl"><input type="button" value="搜  索" class='search_btn' /></div>
+				<div class="hot-search fl">
+					<h2>热门搜索：</h2>
+					<a title="" href="#">买一赠一</a>
+					<a title="" href="#">新人特权</a>
+					<a title="" href="#">五粮液</a>
+					<a title="" href="#">茅台</a>
+					<a title="" href="#">国台</a>
+					<a title="" href="#">泸州老窖</a>
+				</div>
+			</div>
+			<dl class="shopcar">
+				<dt>
+			 		<h3>
+			 			<i class="icon-car"></i>
+			 		    <a href="#">我的购物车</a>
+			 		    <span class="icon-count">
+			 		    	<i id="countId">2</i>
+			 		    	
+			 		    </span>
+			 		    <i class="arrow"></i>
+			 		</h3>
+			 	</dt>
+				<dd>
+					<h4></h4>
+					<!--以后购物车的东西-->
+				</dd>
+			</dl>
+		</div>
+		<div id="main-nav">
+			<div class="main-connav">
+				<div class='main-connav-l'>
+					<h2>全部商品分类</h2>
+					<div>
+						<h3>
+							<i class="icon-bai"></i>
+							<a href="#">名优白酒</a>
+							<i class="icon-tri"></i>
+						</h3>
+						<div class='main-hide-div'>
+							<div class="hide-l">
+								<dl>
+									<dt>品牌</dt>
+									<dd><span>茅台</span><span>五粮液</span><span>国台</span><span>泸州老窖</span><span>剑南春</span><span>洋河</span><span>汾酒</span><span>小品</span><span>天佑德</span><span>小糊涂仙</span><span>郎酒</span><span>杜康</span><span>古井</span><span>衡水老白干</span><span>孔府家</span></dd>
+								</dl>
+								<dl>
+									<dt>品种</dt>
+									<dd><span>酱香型</span><span>绵柔型</span><span>浓香型</span><span>清香型</span><span>特香型</span><span>董香型</span><span>小品</span></dd>
+								</dl>
+								<dl>
+									<dt>产地</dt>
+									<dd><span>贵州</span><span>江西</span><span>四川</span><span>江苏</span><span>山西</span><span>山东</span><span>内蒙</span><span>河南</span></dd>
+								</dl>
+							</div>
+							<dl class="hide-r">
+								<dt>促销活动</dt>
+								<dd>
+									<a href="#"><img src="img/0919guanggao.jpg" /></a>
+									<a href="#"><img src="img/0810guanggao.jpg" /> </a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div>
+						<h3>
+							<i class="icon-hong"></i>
+							<a href="#">葡萄酒/红酒</a>
+							<i class="icon-tri"></i>
+						</h3>
+						<div class='main-hide-div'>
+							<div class="hide-l">
+								<dl>
+									<dt>品牌</dt>
+									<dd><span>拉菲</span><span>佩西</span><span>张裕</span><span>伊莎特</span><span>黄尾袋鼠</span><span>乐船</span><span>小龙船</span><span>圣蒂斯</span><span>澜觉</span><span>奔富</span><span>康迪</span><span>美圣世家</span><span>中级庄</span><span>通天</span><span>马克斯威</span><span>特拉托</span></dd>
+								</dl>
+								<dl>
+									<dt>品种</dt>
+									<dd><span>干红葡萄酒</span><span>干白葡萄酒</span><span>起泡酒/香槟</span><span>冰酒</span><span>果酒</span><span>甜桃红</span><span>甜白</span></dd>
+								</dl>
+								<dl>
+									<dt>产地</dt>
+									<dd><span>法国</span><span>西班牙</span><span>智利</span><span>阿根廷</span><span>澳大利亚</span><span>南非</span><span>中国</span><span>美国</span></dd>
+								</dl>
+							</div>
+							<dl class="hide-r">
+								<dt>促销活动</dt>
+								<dd>
+									<a href="#"><img src="img/0323lafeiguanggao.jpg" /></a>
+									<a href="#"><img src="img/0920hyguanggao.jpg" /> </a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div>
+						<h3>
+							<i class="icon-yang"></i>
+							<a href="#">洋酒</a>
+							<i class="icon-tri"></i>
+						</h3>
+						<div class='main-hide-div'>
+							<div class="hide-l">
+								<dl>
+									<dt>品牌</dt>
+									<dd><span>马爹利</span><span>兄弟</span><span>皇家贝斯</span><span>人头马</span><span>芝华士</span><span>深蓝</span><span>百利甜</span><span>绝对伏特加</span><span>杰克丹尼</span><span>百龄坛</span><span>红广场</span><span>百加得</span><span>尊尼获加</span><span>叶卡</span><span>轩尼诗</span><span>皇家礼炮</span><span>摩根船长</span></dd>
+								</dl>
+								<dl>
+									<dt>品种</dt>
+									<dd><span>聚会用酒</span><span>商务用酒</span></dd>
+								</dl>
+								<dl>
+									<dt>产地</dt>
+									<dd><span>国内</span><span>法国</span><span>英国</span><span>美国</span></dd>
+								</dl>
+							</div>
+							<dl class="hide-r">
+								<dt>促销活动</dt>
+								<dd>
+									<a href="#"><img src="img/yang3.jpg" /></a>
+									<a href="#"><img src="img/yang4.jpg" /> </a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div>
+						<h3>
+							<i class="icon-pi"></i>
+							<a href="#">黄酒</a>
+							<i class="icon-tri"></i>
+						</h3>
+						<div class='main-hide-div'>
+							<div class="hide-l">
+								<dl>
+									<dt>品牌</dt>
+									<dd><span>塔牌</span><span>古越龙山</span><span>石库门</span><span>会稽山</span><span>女儿红</span><span>唐宋</span><span>劲酒</span><span>尧喝货</span></dd>
+								</dl>
+								<dl>
+									<dt>品种</dt>
+									<dd><span>聚会用酒</span><span>礼节拜访</span><span>婚庆用酒</span></dd>
+								</dl>
+								<dl>
+									<dt>价格</dt>
+									<dd><span>1-99</span><span>100-199</span><span>200-299</span></dd>
+								</dl>
+							</div>
+							<dl class="hide-r">
+								<dt>促销活动</dt>
+								<dd>
+									<a href="#"><img src="img/huang1.jpg" /></a>
+									<a href="#"><img src="img/huang2.jpg" /> </a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div>
+						<h3>
+							<i class="icon-li"></i>
+							<a href="#">礼品专区</a>
+							<i class="icon-tri"></i>
+						</h3>
+						<div class='main-hide-div'>
+							<div class="hide-l">
+								<dl>
+									<dt>品牌</dt>
+									<dd><span>国台</span><span>泸州老窖</span><span>牧童村</span><span>汾酒</span><span>拉菲</span><span>张裕</span><span>小橘屋</span></dd>
+								</dl>
+								<dl>
+									<dt>品种</dt>
+									<dd><span>酱香型</span><span>清香型</span><span>干红葡萄酒</span><span>起泡酒</span></dd>
+								</dl>
+								<dl>
+									<dt>产地</dt>
+									<dd><span>四川</span><span>贵州</span><span>陕西</span><span>法国</span></dd>
+								</dl>
+							</div>
+							<dl class="hide-r">
+								<dt>促销活动</dt>
+								<dd>
+									<a href="#"><img src="img/0616tydguanggao.jpg" /></a>
+									<a href="#"><img src="img/lihe.jpg" /> </a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div>
+						<h3>
+							<i class="icon-hun"></i>
+							<a href="#">婚庆专用</a>
+							<i class="icon-tri"></i>
+						</h3>
+						<div class='main-hide-div'>
+							<div class="hide-l">
+								<dl>
+									<dt>品牌</dt>
+									<dd><span>五粮液</span><span>茅台</span><span>牛栏山</span><span>剑南春</span><span>西凤</span><span>沱牌</span></dd>
+								</dl>
+								<dl>
+									<dt>品种</dt>
+									<dd><span>白酒</span><span>红酒</span></dd>
+								</dl>
+								<dl>
+									<dt>产地</dt>
+									<dd><span>贵州</span><span>四川</span><span>南非</span></dd>
+								</dl>
+							</div>
+							<dl class="hide-r">
+								<dt>促销活动</dt>
+								<dd>
+									<a href="#"><img src="img/0704mkswguanggao.jpg" /></a>
+									<a href="#"><img src="img/0920bguanggao.jpg" /> </a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<ul class="main-connav-r">
+					<li>
+						<a href="#">商城</a>
+					</li>
+					<li>
+						<a href="#">闪购</a>
+					</li>
+					<li>
+						<a href="#">白酒专场</a>
+					</li>
+					<li>
+						<a href="#">红酒专场</a>
+					</li>
+					<li>
+						<a href="#">青青稞酒</a>
+					</li>
+					<li>
+						<a href="#">美国优选</a>
+					</li>
+					<li>
+						<a href="#">新品驾到</a>
+					</li>
+					<li>
+						<a href="#">中酒咨询</a>
+					</li>
+					<li>
+						<a href="#">会员专区<em class="hot"></em></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="banner">
+			<!--banner图-->
+			<div class="w">
+				<div class='notice'>
+					<h2>
+						<a class="fr">更多<i class="arrow">&gt;</i></a>
+						<i class="icon-trum"></i>公告
+					</h2>
+
+					<ul>
+						<li>
+							<a href="#" class="active"><b>[公告]</b>酒水大聚惠 买一赠一</a>
+						</li>
+						<li>
+							<a href="#"><b>[公告]</b>龙窖整箱279元送典藏3一箱</a>
+						</li>
+						<li>
+							<a href="#"><b>[公告]</b>生态青稞2600 买赠人参酒</a>
+						</li>
+						<li>
+							<a href="#"><b>[公告]</b>酒类协会秘书长到访中酒</a>
+						</li>
+					</ul>
+					<p>
+						<a href="#"><img src="img/0920gggg.jpg"></a>
+					</p>
+				</div>
+			</div>
+			<div class="flexslider">
+				<ul>
+					<li class="flexslider-first">
+						<a href="#"><img src="img/1.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/2.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/3.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/4.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/5.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/6.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/7.jpg" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/8.jpg" /></a>
+					</li>
+				</ul>
+				<div class="flash-btn">
+					<span class="active">1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span>
+				</div>
+			</div>
+		</div>
+		<div id="brand-sale" class="w zj-sale">
+			<!--品牌特卖-->
+			<h1><span>品牌特卖</span></h1>
+			<ul class="tab clearfix">
+				<li class="select">推荐品牌</li>
+				<li class="">国际品牌</li>
+				<li class="">国内品牌</li>
+			</ul>
+			<div class="tab-con">
+				<ul class="clearfix" style="display: block;">
+					<li>
+						<a title="茅台" href="#"><img alt="茅台" src="img/0614mt.jpg"></a>
+					</li>
+					<li>
+						<a title="五粮液" href="#"><img alt="五粮液" src="img/0418wly.jpg"></a>
+					</li>
+					<li>
+						<a title="泸州" href="#"><img alt="泸州" src="img/0315lz.jpg"></a>
+					</li>
+					<li>
+						<a title="天佑德" href="#"><img alt="天佑德" src="img/0618tianyoude.jpg"></a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="拉菲" href="#"><img alt="拉菲" src="img/lafei.jpg"></a>
+					</li>
+					<li>
+						<a title="特拉托" href="#"><img alt="特拉托" src="img/0718telatuo.jpg"></a>
+					</li>
+					<li>
+						<a title="马克斯威" href="#"><img alt="马克斯威" src="img/makesiwei.jpg"></a>
+					</li>
+					<li>
+						<a title="黄尾袋鼠" href="#"><img alt="黄尾袋鼠" src="img/daishu.jpg"></a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="汾酒" href="#"><img alt="汾酒" src="img/fenjiu.jpg"></a>
+					</li>
+					<li>
+						<a title="国台" href="#"><img alt="国台" src="img/guotai.jpg"></a>
+					</li>
+					<li>
+						<a title="孔府家" href="#"><img alt="孔府家" src="img/kongfujia.jpg"></a>
+					</li>
+					<li>
+						<a title="张裕" href="#"><img alt="张裕" src="img/zhangyu.jpg"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="time-sale" class="w zj-sale">
+			<input type="hidden" id="secgj" value="1474505688647">
+			<h1>
+				<span>限时抢购</span>
+				<span class="clock" style="display: inline;"><i></i>还剩00<em>天</em>07<em>时</em>40<em>分</em>17<em>秒</em>结束</span>
+				<span class="clock"><i></i>距离抢购60<em>天</em>20<em>时</em>11<em>分</em>47<em>秒</em>开始</span>
+			</h1>
+			<ul class="tab clearfix">
+				<li class="select">当前抢购</li>
+				<li>下期预告</li>
+			</ul>
+			<div class="tab-con">
+				<ul class="clearfix">
+					<div class="expirationTime" endtime="1474533306000" name="time2"></div>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/374c1ed2-caf5-4657-92d9-86c7f4e48a9bM.jpg" style="display: inline;">
+							<p>拉菲传奇波尔多 750ml*6</p>
+							<div class="clearfix"><span class="yes" name="currentSale">立即抢购</span><span class="highlight">￥359.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/fdfbc205-74a8-4e91-97f8-fead5d7392f2M.jpg" style="display: inline;">
+							<p>龙船康帝波尔多红葡萄酒 750ml*6</p>
+							<div class="clearfix"><span class="yes" name="currentSale">立即抢购</span><span class="highlight">￥199.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg" style="display: inline;">
+							<p>拉菲珍藏波尔多 750ml</p>
+							<div class="clearfix"><span class="yes" name="currentSale">立即抢购</span><span class="highlight">￥169.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/a829e011-ff1c-4a8d-8fcd-27fad3cdbf6dM.jpg" style="display: inline;">
+							<p>53°茅台迎宾酒（旧包装） 500ml（6瓶装）</p>
+							<div class="clearfix"><span class="yes" name="currentSale">立即抢购</span><span class="highlight">￥359.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/d75b339a-dc81-4a92-9477-99fea4becc0bM.jpg" style="display: inline;">
+							<p>52°五粮液永不分离精品500ml（6瓶装）</p>
+							<div class="clearfix"><span class="yes" name="currentSale">立即抢购</span><span class="highlight">￥199.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/20f2801a-0f37-44e8-84ea-80d601eb44d9M.jpg" style="display: inline;">
+							<p>11.5°张裕干红葡萄酒750ml（6瓶装）</p>
+							<div class="clearfix"><span class="yes" name="currentSale">立即抢购</span><span class="highlight">￥158.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix">
+					<div class="expirationTime" endtime="1469339042000" name="time2"></div>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/637349cd-6e33-4fe1-9b1c-2ead9c5bfe9bM.jpg">
+							<p>53°国台·好礼 500ml*2（礼盒装）</p>
+							<div class="clearfix"><span class="no" name="nextSale">立即抢购</span><span class="highlight">￥288.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/f3d8da0c-65fb-4439-bde5-379604999a7dM.jpg">
+							<p>53°茅台王子酒（旧包装） 500ml（6瓶装）</p>
+							<div class="clearfix"><span class="no" name="nextSale">立即抢购</span><span class="highlight">￥529.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/374c1ed2-caf5-4657-92d9-86c7f4e48a9bM.jpg">
+							<p>拉菲传奇波尔多 750ml*6</p>
+							<div class="clearfix"><span class="no" name="nextSale">立即抢购</span><span class="highlight">￥359.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/1e20f81e-5d30-43dd-aa58-05fe3ae738a0M.jpg">
+							<p>53°玻璃瓶汾酒 475ml 玻璃汾*6 </p>
+							<div class="clearfix"><span class="no" name="nextSale">立即抢购</span><span class="highlight">￥239.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ca857f6b-37ef-4cc3-b9b9-4611d677794fM.jpg">
+							<p>52°五粮液华彩人生10典藏500ml*6 </p>
+							<div class="clearfix"><span class="no" name="nextSale">立即抢购</span><span class="highlight">￥298.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/d9436102-ab44-4c61-bb15-ebc75fbfe367M.jpg">
+							<p>53°一道泓酱香传奇 1000ml*2</p>
+							<div class="clearfix"><span class="no" name="nextSale">立即抢购</span><span class="highlight">￥149.00</span></div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="floor-bai" class="w zj-floor">
+			<!--白酒-->
+			<h1><i></i>白酒</h1>
+			<ul class="tab clearfix">
+				<li class="">爆品推荐</li>
+				<li class="select">茅台</li>
+				<li class="">五粮液</li>
+				<li>酱香</li>
+				<li>浓香</li>
+				<li>清香</li>
+				<li>
+					<a title="" href="#">更多</a>
+				</li>
+			</ul>
+			<p class="tab-st clearfix" style="padding-left: 674px;"><i></i></p>
+			<div class="tab-sidebar" style="background-image:url(http://img1.zhongjiu.com.cn/shangcheng/pinlei/bai/guanggao/baijiu0219.jpg);background-color:#6dd1f3;">
+				<ul class="clearfix">
+					<li>
+						<a title="" href="#">茅台</a>
+					</li>
+					<li>
+						<a title="" href="#">五粮液</a>
+					</li>
+					<li>
+						<a title="" href="#">泸州老窖</a>
+					</li>
+					<li>
+						<a title="" href="#">洋河</a>
+					</li>
+					<li>
+						<a title="" href="#">牛栏山</a>
+					</li>
+					<li>
+						<a title="" href="#">一道泓</a>
+					</li>
+					<li>
+						<a title="" href="#">汾酒</a>
+					</li>
+					<li>
+						<a title="" href="#">天佑德</a>
+					</li>
+				</ul>
+				<a title="" href="#"></a>
+			</div>
+			<div class="tab-siderecom">
+				<a href="#"><img alt="" src="img/0620xifeng.jpg" style="display: inline;"></a>
+				<a title="" href="#"><img src="img/0914guanggao2.jpg" style="display: inline;"></a>
+			</div>
+			<div class="tab-con">
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/7fe7118a-75f8-45c9-9c3f-da99348bd10aM.jpg" style="display: inline;">
+							<p>【买1得1瓶进口红酒】洋河蓝色经典梦之蓝M3 52度 500ml </p>
+							<div class="clearfix"><span class="highlight">￥459.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/8ec89c19-056c-4057-ac9b-b57599993c67M.jpg" style="display: inline;">
+							<p>52°泸州窖酒（窖藏龙窖） 500ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥279.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/myz1.png" style="display: inline;">
+							</div>
+							<img alt="" tag="lazy" data-original="http://img1.zhongjiu.com.cn/Resource/ProductPic/P533/68a28a3a-d463-4da2-92b5-588b5dc6ed7eM.jpg" src="http://img1.zhongjiu.com.cn/Resource/ProductPic/P533/68a28a3a-d463-4da2-92b5-588b5dc6ed7eM.jpg" style="display: inline;">
+							<p>52°泸州老窖头曲 500ml</p>
+							<div class="clearfix"><span class="highlight">￥129.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/d0da730e-b2cf-4446-80ec-06ae28fa7b1cM.jpg" style="display: inline;">
+							<p>52°汾酒封坛原酒 1500ml （2瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥158.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/a829e011-ff1c-4a8d-8fcd-27fad3cdbf6dM.jpg" style="display: inline;">
+							<p>53°茅台迎宾酒（旧包装） 500ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥359.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="l/5717.htm" target="_blank">
+							<img alt="" src="img/ca106358-9288-451c-acaa-9128ca735391M.jpg" style="display: inline;">
+							<p>42度 天佑德青稞酒 海拔2600 500ml（2瓶装） </p>
+							<div class="clearfix"><span class="highlight">￥196.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/zmzxj.png" style="display: inline;">
+							</div>
+							<img alt="" tag="lazy" src="img/637349cd-6e33-4fe1-9b1c-2ead9c5bfe9bM.jpg" style="display: inline;">
+							<p>53°国台·好礼 500ml*2（礼盒装）</p>
+							<div class="clearfix"><span class="highlight">￥288.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/820cd532-6ff5-41e8-81f0-72dcb8eaf7c8M.jpg" style="display: inline;">
+							<p>53°茅台王子酒（旧包装） 500ml（2瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥198.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: block;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/33184f3f-473e-4743-bd3c-48139d59556dM.jpg" style="display: inline;">
+							<p>53°茅台飞天 500ml</p>
+							<div class="clearfix"><span class="highlight">￥999.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/73ddffee-a99e-4e58-aeba-1f016cfade96M.jpg" style="display: inline;">
+							<p>53°茅台王子-酱门经典（新包装） 500ml</p>
+							<div class="clearfix"><span class="highlight">￥139.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/beb776c3-77c8-4442-993e-b0d1046b77baM.jpg" style="display: inline;">
+							<p>53°茅台飞天 500ml（2瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥1979.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/c58f78e2-5d22-4a0c-9fa0-a94089a41a90M.jpg" style="display: inline;">
+							<p>53°成龙酒·成龙祥凤礼盒 500ml*2</p>
+							<div class="clearfix"><span class="highlight">￥369.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/f3d8da0c-65fb-4439-bde5-379604999a7dM.jpg" style="display: inline;">
+							<p>53°茅台王子酒（旧包装） 500ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥529.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img src="img/34ec10d7-1f9c-41f0-b3ce-b41ae46a6a65M.jpg" style="display: inline;">
+							<p>43°飞天茅台 500ml</p>
+							<div class="clearfix"><span class="highlight">￥599.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/1537c0eb-31cb-46bf-a7b8-7dacca524417M.jpg" style="display: inline;">
+							<p>43°茅台迎宾酒 500ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥309.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/a829e011-ff1c-4a8d-8fcd-27fad3cdbf6dM.jpg" style="display: inline;">
+							<p>53°茅台迎宾酒（旧包装） 500ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥359.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="#">
+							<img alt="" src="img/c8fed83c-6573-405b-a4a0-40eb461304f4M.jpg" style="display: inline;">
+							<p>52°五粮液 500ml</p>
+							<div class="clearfix"><span class="highlight">￥799.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/d75b339a-dc81-4a92-9477-99fea4becc0bM.jpg" style="display: inline;">
+							<p>52°五粮液永不分离精品500ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥199.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/3276694d-b934-43dd-b43e-691e43662bc4M.jpg" style="display: inline;">
+							<p>52°五粮液华彩人生（金标版 ）A30 500ml（六瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥498.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/dcff2f66-a224-433b-b16a-b8544125fb44M.jpg" style="display: inline;">
+							<p>52°五粮液1618 500ml</p>
+							<div class="clearfix"><span class="highlight">￥739.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" tag="lazy" data-original="http://img1.zhongjiu.com.cn/Resource/ProductPic/P533/5cb5bbd5-cd16-42fd-b86c-1086e1bd0c33M.jpg" src="http://img1.zhongjiu.com.cn/Resource/ProductPic/P533/5cb5bbd5-cd16-42fd-b86c-1086e1bd0c33M.jpg" style="display: inline;">
+							<p>52°五粮液华彩人生20珍藏 500ml(6瓶装) </p>
+							<div class="clearfix"><span class="highlight">￥188.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/db14743d-6095-40c1-9317-da1ad2f17fd8M.jpg" style="display: inline;">
+							<p>五粮液华彩人生30典藏（水晶盒）500ml(6瓶装) </p>
+							<div class="clearfix"><span class="highlight">￥389.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/fec08d73-0dca-425d-91bb-cde6ff87d864M.jpg" style="display: inline;">
+							<p>68°五粮液 500ml</p>
+							<div class="clearfix"><span class="highlight">￥719.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ca857f6b-37ef-4cc3-b9b9-4611d677794fM.jpg" style="display: inline;">
+							<p>52°五粮液华彩人 生10典藏 500ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥298.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/dtsh.png">
+							</div>
+							<img alt="" src="img/8db536bb-3d55-4694-96dc-42afb78d0a4aM.jpg">
+							<p>53°一道泓酱香传奇 1000ml</p>
+							<div class="clearfix"><span class="highlight">￥69.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/4f3a25cb-8a40-4263-a4c0-776338d762a2M.jpg">
+							<p>53°茅台财富珍品 500ml</p>
+							<div class="clearfix"><span class="highlight">￥299.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/8db536bb-3d55-4694-96dc-42afb78d0a4aM.jpg">
+							<p>53° 一道泓酱香老酒 500ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥199.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/888c31d4-5d62-41c7-8121-2b5b164e584bM.jpg">
+							</div>
+							<img alt="" src="img/888c31d4-5d62-41c7-8121-2b5b164e584bM.jpg">
+							<p>53°国台·好礼 500ml*2（礼盒装）</p>
+							<div class="clearfix"><span class="highlight">￥288.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/888c31d4-5d62-41c7-8121-2b5b164e584bM.jpg">
+							<p>53°醉卿.龙坛收藏 1000ml（2瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥138.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/888c31d4-5d62-41c7-8121-2b5b164e584bM.jpg">
+							<p>53°十年红花郎酒单盒 500ml</p>
+							<div class="clearfix"><span class="highlight">￥299.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/dtsh.png">
+							</div>
+							<img alt="" src="img/888c31d4-5d62-41c7-8121-2b5b164e584bM.jpg">
+							<p>53°茅台王子酒（旧包装） 500ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥529.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/888c31d4-5d62-41c7-8121-2b5b164e584bM.jpg">
+							<p>43°茅台飞天500ml*2</p>
+							<div class="clearfix"><span class="highlight">￥1198.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/5962d7d7-44ff-4335-94e1-cec4220a7eceM.jpg">
+							<p>52°泸州老窖鉴赏级酒品典藏3 480ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥99.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/76967d3a-efe4-43b9-ab3e-7361912cc618M.jpg">
+							<p>52°国窖1573 500ml</p>
+							<div class="clearfix"><span class="highlight">￥739.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/dtsh.png">
+							</div>
+							<img alt="" src="img/637349cd-6e33-4fe1-9b1c-2ead9c5bfe9bM.jpg">
+							<p>52°泸州老窖鉴赏级酒品御藏9 1880ml*2（两坛装）</p>
+							<div class="clearfix"><span class="highlight">￥240.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/dtsh.png">
+							</div>
+							<img alt="" src="img/2492374b-0db3-487c-8a2e-01734ec85bafM.jpg">
+							<p>52°鸭溪窖-古酿 500ml （6瓶装） </p>
+							<div class="clearfix"><span class="highlight">￥389.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/d9faa689-e180-4e06-9f48-f13f697843d7M.jpg">
+							<p>52°剑南春 500ml</p>
+							<div class="clearfix"><span class="highlight">￥349.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/f3d8da0c-65fb-4439-bde5-379604999a7dM.jpg">
+							<p>52°泸州窖酒（窖藏龙窖） 500ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥279.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/f57a07dc-1db8-4605-ba49-a0ad1d9a8f16M.jpg">
+							<p>52°老窖醇香 500ml*4</p>
+							<div class="clearfix"><span class="highlight">￥59.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/dtsh.png">
+							</div>
+							<img alt="" src="img/f91ef580-5efa-4661-b515-4e8e5856c5c9M.jpg">
+							<p>52°泸州窖酒陶坛老酒500ml</p>
+							<div class="clearfix"><span class="highlight">￥188.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/dtsh.png">
+							</div>
+							<img alt="" src="img/76967d3a-efe4-43b9-ab3e-7361912cc618M.jpg">
+							<p>42°西藏天佑德青稞酒-加持 500ml（2瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥299.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/637349cd-6e33-4fe1-9b1c-2ead9c5bfe9bM.jpg">
+							<p>45°十年老白汾酒 475ml</p>
+							<div class="clearfix"><span class="highlight">￥149.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/dtsh.png">
+							</div>
+							<img alt="" src="img/2492374b-0db3-487c-8a2e-01734ec85bafM.jpg">
+							<p>52°酒鬼酒醇香 500ml</p>
+							<div class="clearfix"><span class="highlight">￥249.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/dtsh.png">
+							</div>
+							<img alt="" src="img/70819168-e7de-40b7-a2fc-4a9a92a57321M.jpg">
+							<p>52°汾酒清典荣耀 850ml</p>
+							<div class="clearfix"><span class="highlight">￥119.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/d9faa689-e180-4e06-9f48-f13f697843d7M.jpg">
+							<p>58°百年牛栏山清香白酒（瓷瓶） 500ml（12瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥199.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/f3d8da0c-65fb-4439-bde5-379604999a7dM.jpg">
+							<p>56°红星二锅头 500ml（12瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥159.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/f57a07dc-1db8-4605-ba49-a0ad1d9a8f16M.jpg">
+							<p>50° 汾酒集团杏花村窖龄酒（6瓶装）475ML</p>
+							<div class="clearfix"><span class="highlight">￥1399.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/f91ef580-5efa-4661-b515-4e8e5856c5c9M.jpg">
+							<p>53°玻瓶汾酒 475ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥229.00</span></div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<ul class="brand">
+				<li>
+					<img alt="" src="img/maotai.jpg" style="display: inline;">
+					<a title="" href="#"><span>茅台</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/wuliangye.jpg" style="display: inline;">
+					<a title="" href="#"><span>五粮液</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/fenjiu.jpg" style="display: inline;">
+					<a title="" href="http://s.zhongjiu.cn/bx0x343.html" target="_blank"><span>汾酒</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/jiannanchun.jpg" style="display: inline;">
+					<a title="" href="http://s.zhongjiu.cn/search/index?keyword=剑南春&amp;brand=324" target="_blank"><span>剑南春</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/xiaohutuxian.jpg" style="display: inline;">
+					<a title="" href="#"><span>小糊涂仙</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/yidaohong.jpg" style="display: inline;">
+					<a title="" href="#"><span>一道泓</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/luzhoulaojiao.jpg" style="display: inline;">
+					<a title="" href="#"><span>泸州老窖</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/tianyoude.jpg" style="display: inline;">
+					<a title="" href="#"><span>天佑德</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/brand1_12.jpg" style="display: inline;">
+					<a title="" href="#"><span>郎酒</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/yanghe.jpg" style="display: inline;">
+					<a title="" href="#"><span>洋河</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/xifeng.jpg" style="display: inline;">
+					<a title="" href="#"><span>西凤</span></a>
+				</li>
+				<li class="small">
+					<img src="img/niulanshan.jpg" style="display: inline;">
+					<a title="" href="#"><span>牛栏山</span></a>
+				</li>
+			</ul>
+		</div>
+		<div id="floor-hong" class="w zj-floor">
+			<h1><i></i>红酒</h1>
+			<ul class="tab clearfix">
+				<li class="select">热卖</li>
+				<li>红葡萄酒</li>
+				<li>白葡萄酒</li>
+				<li>起泡酒</li>
+				<li>特拉托</li>
+				<li>中级庄</li>
+				<li>
+					<a title="" href="#">更多</a>
+				</li>
+			</ul>
+			<p class="tab-st clearfix" style="padding-left: 582px;"><i></i></p>
+			<div class="tab-sidebar" style="background-image:url(img/hongjiu.jpg);background-color:#a6a4c2;">
+				<ul class="clearfix">
+					<li>
+						<a title="" href="#">拉菲</a>
+					</li>
+					<li>
+						<a title="" href="#">法国</a>
+					</li>
+					<li>
+						<a title="" href="#">张裕</a>
+					</li>
+					<li>
+						<a title="" href="#">澳大利亚</a>
+					</li>
+					<li>
+						<a title="" href="#">佩西</a>
+					</li>
+					<li>
+						<a title="" href="#">特拉托</a>
+					</li>
+					<li>
+						<a title="" href="#">马爵</a>
+					</li>
+				</ul>
+				<a title="" href="#"></a>
+			</div>
+			<div class="tab-siderecom">
+				<a title="" href="#"><img alt="" src="img/napagu.jpg" style="display: inline;"></a>
+				<a title="" href="#"><img alt="" src="img/of.jpg" style="display: inline;"></a>
+			</div>
+			<div class="tab-con">
+				<ul class="clearfix" style="display: block;">
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/myz1.png" style="display: inline;">
+							</div>
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg" style="display: inline;">
+							<p>拉菲珍藏波尔多干红红葡萄酒 750ml</p>
+							<div class="clearfix"><span class="highlight">￥169.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/20f2801a-0f37-44e8-84ea-80d601eb44d9M.jpg" style="display: inline;">
+							<p>11.5°张裕干红葡萄酒750ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥158.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/d422ad6c-e20c-44de-a974-32a59675d17eM.jpg" style="display: inline;">
+							<p>佩西精选干红葡萄酒 750ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥139.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/374c1ed2-caf5-4657-92d9-86c7f4e48a9bM.jpg" style="display: inline;">
+							<p>拉菲传奇波尔多 750ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥359.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/e3ec5acc-d0de-41c1-8658-aa8570fc64bfM.jpg" style="display: inline;">
+							<p>恋爱季甜白高泡+恋爱季甜桃红 750ml （2瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥79.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/zxj.png" style="display: inline;">
+							</div>
+							<img alt="" src="img/cb821611-08d0-4082-be1e-52f874a99506M.jpg" style="display: inline;">
+							<p>13.5°美圣世家仙马园尚波尔多干红葡萄酒 750ml （6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥298.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/d13a3efe-e3d0-4328-bfcf-e9be18b5a8aaM.jpg" style="display: inline;">
+							<p>砾石庄园梅洛红葡萄酒 750ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥279.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/mj.png" style="display: inline;">
+							</div>
+							<img alt="" src="img/1c5b65a0-841f-4f79-863e-cd05837195caM.jpg" style="display: inline;">
+							<p>12°美圣世家仙马园波尔多干红葡萄酒 750ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥359.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/blank.gif">
+							</div>
+							<img alt="" src="img/1e6ad314-3ce8-48ec-84d0-f6088b4e6bdaM.jpg">
+							<p>13.5°美圣世家仙马园尚波尔多干红葡萄酒 750ml （6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥298.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/blank.gif">
+							</div>
+							<img alt="" src="img/1e6ad314-3ce8-48ec-84d0-f6088b4e6bdaM.jpg">
+							<p>伊莎特红葡萄酒 750ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥139.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/1e6ad314-3ce8-48ec-84d0-f6088b4e6bdaM.jpg">
+							<p>马克斯威酒庄-精选美国加利福尼亚州赤霞珠干红-2013 750m</p>
+							<div class="clearfix"><span class="highlight">￥288.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/1e6ad314-3ce8-48ec-84d0-f6088b4e6bdaM.jpg">
+							<p>拉菲华诗歌 750ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥468.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/af681ceb-0e6d-4a48-89e1-4208b4dd2e94M.jpg">
+							<p>澳洲奔富酒园BIN28卡纳琳设拉子红葡萄酒 750ml</p>
+							<div class="clearfix"><span class="highlight">￥199.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/af681ceb-0e6d-4a48-89e1-4208b4dd2e94M.jpg">
+							<p>库玛拉干红葡萄酒 750ml（2瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥109.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/af681ceb-0e6d-4a48-89e1-4208b4dd2e94M.jpg">
+							<p>拉菲珍藏波尔多干红红葡萄酒 750ml</p>
+							<div class="clearfix"><span class="highlight">￥169.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/af681ceb-0e6d-4a48-89e1-4208b4dd2e94M.jpg">
+							<p>康迪干红葡萄酒 750ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥219.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/b4324966-e29b-4f86-ac41-a7459a1717a6M.jpg">
+							<p>12.5°斯缔皇冠托卡伊半甜白葡萄酒750ml（2瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥109.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/b4324966-e29b-4f86-ac41-a7459a1717a6M.jpg">
+							<p>库玛拉干白葡萄酒 750ml（2瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥99.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/b4324966-e29b-4f86-ac41-a7459a1717a6M.jpg">
+							<p>伊莎特白葡萄酒 750ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥149.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/blank.gif">
+							</div>
+							<img alt="" src="img/b4324966-e29b-4f86-ac41-a7459a1717a6M.jpg">
+							<p>欧菲白葡萄酒 750ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥199.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/b4324966-e29b-4f86-ac41-a7459a1717a6M.jpg">
+							<p>法国龙船康帝波尔多白葡萄酒 750ml*6</p>
+							<div class="clearfix"><span class="highlight">￥229.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/b4324966-e29b-4f86-ac41-a7459a1717a6M.jpg">
+							<p>洛神山庄霞多丽白葡萄酒 750ml</p>
+							<div class="clearfix"><span class="highlight">￥76.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/b4324966-e29b-4f86-ac41-a7459a1717a6M.jpg">
+							<p>砾石庄园长相思白葡萄酒 750ml（2瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥129.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/b4324966-e29b-4f86-ac41-a7459a1717a6M.jpg">
+							<p>兰贵人半甜白葡萄酒 750ml（2瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥79.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ed651fd1-fb4a-45c2-9d78-8dabbd09fb45M .jpg">
+							<p>恋爱季甜白高泡+恋爱季甜桃红 750ml （2瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥79.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/blank.gif">
+							</div>
+							<img alt="" src="img/ed651fd1-fb4a-45c2-9d78-8dabbd09fb45M .jpg">
+							<p>皇室气泡750ml</p>
+							<div class="clearfix"><span class="highlight">￥88.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ed651fd1-fb4a-45c2-9d78-8dabbd09fb45M .jpg">
+							<p>爱之湾桃红莫斯卡托甜起泡酒750ml*2</p>
+							<div class="clearfix"><span class="highlight">￥78.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/blank.gif">
+							</div>
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg">
+							<p>5°夜光之恋魅影起泡葡萄酒 750ml</p>
+							<div class="clearfix"><span class="highlight">￥99.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ed651fd1-fb4a-45c2-9d78-8dabbd09fb45M .jpg">
+							<p>圣卡罗碱性天然水果发酵起泡酒4种口味（4瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥138.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ed651fd1-fb4a-45c2-9d78-8dabbd09fb45M .jpg">
+							<p>火焰酒（起泡葡萄配制酒）-火焰 750ml</p>
+							<div class="clearfix"><span class="highlight">￥299.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ed651fd1-fb4a-45c2-9d78-8dabbd09fb45M .jpg">
+							<p>365爱恋起泡酒 三种口味套装</p>
+							<div class="clearfix"><span class="highlight">￥69.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ed651fd1-fb4a-45c2-9d78-8dabbd09fb45M .jpg">
+							<p>仙山露甜味起泡葡萄酒礼盒装 750ml*2</p>
+							<div class="clearfix"><span class="highlight">￥118.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg">
+							<p>杰克之家庄园-加州赤霞珠干红葡萄酒 2014 750ml</p>
+							<div class="clearfix"><span class="highlight">￥239.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg">
+							<p>桑福德酒庄-圣利塔山黑皮诺干红葡萄酒 2012 750ml</p>
+							<div class="clearfix"><span class="highlight">￥559.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg">
+							<p>卢瑟福山酒庄-纳帕谷美乐干红葡萄酒 2013 750ml</p>
+							<div class="clearfix"><span class="highlight">￥429.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg">
+							<p>坦利橡树酒庄-纳帕谷美乐干红葡萄酒 2012 750ml</p>
+							<div class="clearfix"><span class="highlight">￥249.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg">
+							<p>马克斯威酒庄-精选美国加利福尼亚州赤霞珠干红-2013 750m</p>
+							<div class="clearfix"><span class="highlight">￥288.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg">
+							<p>格雷丝酒庄-雅基马谷雷司令甜白葡萄酒 2014 750ml</p>
+							<div class="clearfix"><span class="highlight">￥159.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg">
+							<p>汉纳酒庄-俄罗斯河谷长相思干白葡萄酒 2015 750ml</p>
+							<div class="clearfix"><span class="highlight">￥309.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg">
+							<p>七仙女酒庄-加州霞多丽干白葡萄酒 2013 750ml</p>
+							<div class="clearfix"><span class="highlight">￥219.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg">
+							<p>波坦萨古堡2009干红葡萄酒750ml</p>
+							<div class="clearfix"><span class="highlight">￥299.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg">
+							<p>潘迪庄园2009干红葡萄酒750ml</p>
+							<div class="clearfix"><span class="highlight">￥218.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg">
+							<p>利维纳酒庄2009干红葡萄酒750ml</p>
+							<div class="clearfix"><span class="highlight">￥175.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg">
+							<p>碧安庄园2007干红葡萄酒750ml</p>
+							<div class="clearfix"><span class="highlight">￥169.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg">
+							<p>圣十字玫瑰庄园2010干红葡萄酒750ml</p>
+							<div class="clearfix"><span class="highlight">￥188.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg">
+							<p>蓬莱瓦兹庄园干红葡萄酒750ml</p>
+							<div class="clearfix"><span class="highlight">￥165.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg">
+							<p>李寇特庄园2009干红葡萄酒750ml</p>
+							<div class="clearfix"><span class="highlight">￥99.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/624d88bb-0840-415c-8362-21a1b0d8337aM.jpg">
+							<p>甘得露城堡2009红葡萄酒750ml</p>
+							<div class="clearfix"><span class="highlight">￥189.00</span></div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<ul class="brand">
+				<li>
+					<img alt="" src="img/lafei.jpg" style="display: inline;">
+					<a title="" href="#"><span>拉菲</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/terlatologo.jpg" style="display: inline;">
+					<a title="" href="#"><span>特拉托</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/yishate.jpg" style="display: inline;">
+					<a title="" href="#"><span>伊莎特</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/pulata.jpg" style="display: inline;">
+					<a title="" href="#"><span>普拉塔</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/lechuan.jpg" style="display: inline;">
+					<a title="" href="#"><span>乐船</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/aode.jpg" style="display: inline;">
+					<a title="" href="#"><span>奥德小教堂</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/daishu.jpg" style="display: inline;">
+					<a title="" href="#"><span>黄尾袋鼠</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/benfu.jpg" style="display: inline;">
+					<a title="" href=""><span>奔富</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/meishengshijia.jpg" style="display: inline;">
+					<a title="" href="#"><span>美圣世家</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/tongtian.jpg" style="display: inline;">
+					<a title="" href="#"><span>通天</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/zhangyu.jpg" style="display: inline;">
+					<a title="" href="#"><span>张裕</span></a>
+				</li>
+				<li class="small">
+					<img alt="" src="img/mj.jpg" style="display: inline;">
+					<a title="" href="#"><span>马爵</span></a>
+				</li>
+			</ul>
+		</div>
+		<div id="floor-yang" class="w zj-floor">
+			<h1><i></i>洋酒</h1>
+			<ul class="tab clearfix">
+				<li class="select">热卖</li>
+				<li class="">伏特加/白兰地</li>
+				<li>朗姆酒</li>
+				<li>威士忌</li>
+				<li>
+					<a title="" href="#">更多</a>
+				</li>
+			</ul>
+			<p class="tab-st clearfix" style="padding-left: 766px;"><i></i></p>
+			<div class="tab-sidebar" style="background-image:url(img/yangjiu1.jpg);background-color:#edaf29;">
+				<ul class="clearfix">
+					<li>
+						<a title="" href="#">马爹利</a>
+					</li>
+					<li>
+						<a title="" href="#">兄弟</a>
+					</li>
+					<li>
+						<a title="" href="#">深蓝</a>
+					</li>
+					<li>
+						<a title="" href="#">百加得</a>
+					</li>
+					<li>
+						<a title="" href="#">百利甜</a>
+					</li>
+					<li>
+						<a title="" href="http://s.zhongjiu.cn/bx0x327.html" target="_blank">百龄坛</a>
+					</li>
+					<li>
+						<a title="" href="#">麦卡伦</a>
+					</li>
+				</ul>
+				<a title="" href="#"></a>
+			</div>
+			<div class="tab-siderecom">
+				<a title="" href="#"><img alt="" src="img/0606heifang.jpg" style="display: inline;"></a>
+				<a title="" href="#"><img alt="" src="img/jiekedanni.jpg" style="display: inline;"></a>
+			</div>
+			<div class="tab-con">
+				<ul class="clearfix" style="display: block;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/d023d138-d7b7-49b8-b62f-8cfa8adf1195M.jpg" style="display: inline;">
+							<p>皇家贝斯美乐威士忌 700ml（2瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥59.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/7254e1b8-b9fa-4520-a3d1-91bf6c0b0b10M.jpg" style="display: inline;">
+							<p>深蓝牌SKYY原味伏特加 750ml（2瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥89.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="http://www.zhongjiu.cn/productdetail/4229.htm" target="_blank">
+							<div class="qian">
+								<img alt="" src="img/zsjb.png" style="display: inline;">
+							</div>
+							<img alt="" src="img/3ba2d1b9-94f0-4c89-92de-fc3469188054M.jpg" style="display: inline;">
+							<p>兄弟12年典藏威士忌 375ml（2瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥99.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/sljp.png" style="display: inline;">
+							</div>
+							<img alt="" src="img/a4afad75-def9-48f6-8b5a-112274d0e5acM.jpg" style="display: inline;">
+							<p>尊尼获加红牌调配苏格兰威士忌 700ml（礼盒装） </p>
+							<div class="clearfix"><span class="highlight">￥159.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/dprx.png" style="display: inline;">
+							</div>
+							<img alt="" src="img/d0cb24a9-4bb1-4c16-af98-93fa8f76b946M.jpg" style="display: inline;">
+							<p>麦卡伦12年700ml</p>
+							<div class="clearfix"><span class="highlight">￥345.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/193c9a06-fe53-4755-8cb2-5789503554abM.png" style="display: inline;">
+							<p>人头马特优香槟干邑XO 700ml</p>
+							<div class="clearfix"><span class="highlight">￥1299.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/zbtj.png" style="display: inline;">
+							</div>
+							<img alt="" src="img/4a633bd7-909d-496b-8c78-13ad3baea5adM.jpg" style="display: inline;">
+							<p>马爹利名士 700ml</p>
+							<div class="clearfix"><span class="highlight">￥429.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/rxbk.png" style="display: inline;">
+							</div>
+							<img alt="" src="img/3d45e7f2-6927-47d3-9ff8-35344deb8e70M.jpg" style="display: inline;">
+							<p>芝华士12年威士忌700ml</p>
+							<div class="clearfix"><span class="highlight">￥195.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ba2a4e8f-a640-4c1f-b495-fa30ed056564M.jpg" style="display: inline;">
+							<p>40°绝对伏特加野茶700ml</p>
+							<div class="clearfix"><span class="highlight">￥129.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/c7b2ea8e-542a-4c1b-a035-502a3020f201M.jpg" style="display: inline;">
+							<p>斯米诺（皇冠）红牌伏特加 750ml</p>
+							<div class="clearfix"><span class="highlight">￥45.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/4a633bd7-909d-496b-8c78-13ad3baea5adM.jpg" style="display: inline;">
+							<p>马爹利名士 700ml</p>
+							<div class="clearfix"><span class="highlight">￥429.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/23a8959a-c9e0-486d-8469-592bc6e11791M.jpg" style="display: inline;">
+							<p>人头马V.S.O.P （无盒） 700ml</p>
+							<div class="clearfix"><span class="highlight">￥285.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" tag="lazy" src="img/ca18d657-422a-48cc-9020-80167fa6bc87M.jpg">
+							<p>40°叶卡伏特加 500ml</p>
+							<div class="clearfix"><span class="highlight">￥79.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/blank.gif">
+							</div>
+							<img alt="" src="img/ca18d657-422a-48cc-9020-80167fa6bc87M.jpg">
+							<p>轩尼诗XO 700ml</p>
+							<div class="clearfix"><span class="highlight">￥1298.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ca18d657-422a-48cc-9020-80167fa6bc87M.jpg">
+							<p>马爹利蓝带干邑 700ml</p>
+							<div class="clearfix"><span class="highlight">￥985.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ca18d657-422a-48cc-9020-80167fa6bc87M.jpg">
+							<p>马爹利xo 700ml</p>
+							<div class="clearfix"><span class="highlight">￥1398.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ca18d657-422a-48cc-9020-80167fa6bc87M.jpg">
+							<p>bacardi百加得白朗姆酒 750ml</p>
+							<div class="clearfix"><span class="highlight">￥55.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ca18d657-422a-48cc-9020-80167fa6bc87M.jpg">
+							<p>哈瓦那3年朗姆酒 750ml</p>
+							<div class="clearfix"><span class="highlight">￥129.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ca18d657-422a-48cc-9020-80167fa6bc87M.jpg">
+							<p>摩根船长原创金牌调味朗姆酒700ml</p>
+							<div class="clearfix"><span class="highlight">￥109.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ca18d657-422a-48cc-9020-80167fa6bc87M.jpg">
+							<p>bacardi百加得151朗姆酒 750ml</p>
+							<div class="clearfix"><span class="highlight">￥129.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ca18d657-422a-48cc-9020-80167fa6bc87M.jpg">
+							<p>bacardi百加得黑朗姆酒 750ml</p>
+							<div class="clearfix"><span class="highlight">￥109.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ca18d657-422a-48cc-9020-80167fa6bc87M.jpg">
+							<p>百加得冰锐朗姆预调酒橙味 275ml</p>
+							<div class="clearfix"><span class="highlight">￥11.90</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ca18d657-422a-48cc-9020-80167fa6bc87M.jpg">
+							<p>哈瓦那3年朗姆酒 750ml</p>
+							<div class="clearfix"><span class="highlight">￥129.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ca18d657-422a-48cc-9020-80167fa6bc87M.jpg">
+							<p>波士bols樱桃白兰地力娇酒 700ml</p>
+							<div class="clearfix"><span class="highlight">￥98.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ca18d657-422a-48cc-9020-80167fa6bc87M.jpg">
+							<p>芝华士12年威士忌700ml</p>
+							<div class="clearfix"><span class="highlight">￥195.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/ca18d657-422a-48cc-9020-80167fa6bc87M.jpg">
+							<p>尊尼获加黑方威士忌 700ml</p>
+							<div class="clearfix"><span class="highlight">￥188.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/26096-787-m.jpg">
+							<p>百龄坛特醇苏格兰威士忌 700ml</p>
+							<div class="clearfix"><span class="highlight">￥99.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/26096-787-m.jpg">
+							<p>格兰菲迪12年单一麦芽威士忌 700ml</p>
+							<div class="clearfix"><span class="highlight">￥228.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/blank.gif">
+							</div>
+							<img alt="" src="img/26096-787-m.jpg">
+							<p>占边波本威士忌750ml</p>
+							<div class="clearfix"><span class="highlight">￥85.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/26096-787-m.jpg">
+							<p>兄弟12年典藏威士忌 375ml</p>
+							<div class="clearfix"><span class="highlight">￥55.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/26096-787-m.jpg">
+							<p>麦卡伦12年700ml</p>
+							<div class="clearfix"><span class="highlight">￥345.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/26096-787-m.jpg">
+							<p>皇家礼炮 700ml</p>
+							<div class="clearfix"><span class="highlight">￥1029.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/26096-787-m.jpg">
+							<p>波士bols樱桃白兰地力娇酒 700ml</p>
+							<div class="clearfix"><span class="highlight">￥98.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/7254e1b8-b9fa-4520-a3d1-91bf6c0b0b10M.jpg">
+							<p>40°墨西哥懒虫金龙舌兰750ml</p>
+							<div class="clearfix"><span class="highlight">￥99.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/7254e1b8-b9fa-4520-a3d1-91bf6c0b0b10M.jpg">
+							<p>人头马V.S.O.P （无盒） 700ml</p>
+							<div class="clearfix"><span class="highlight">￥285.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/7254e1b8-b9fa-4520-a3d1-91bf6c0b0b10M.jpg">
+							<p>马爹利名士 700ml</p>
+							<div class="clearfix"><span class="highlight">￥429.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/7254e1b8-b9fa-4520-a3d1-91bf6c0b0b10M.jpg">
+							<p>人头马特优香槟干邑XO 1500ml</p>
+							<div class="clearfix"><span class="highlight">￥2699.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/7254e1b8-b9fa-4520-a3d1-91bf6c0b0b10M.jpg">
+							<p>人头马VSOP蔡依林版 （无外盒） 700ml</p>
+							<div class="clearfix"><span class="highlight">￥285.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/7254e1b8-b9fa-4520-a3d1-91bf6c0b0b10M.jpg">
+							<p>马爹利名仕限量版700ml</p>
+							<div class="clearfix"><span class="highlight">￥599.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/75e7047c-2c82-4674-aa1c-1059a9fc0c68M.jpg">
+							<p>马爹利蓝带干邑 700ml</p>
+							<div class="clearfix"><span class="highlight">￥985.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/75e7047c-2c82-4674-aa1c-1059a9fc0c68M.jpg">
+							<p>人头马V.S.O.P （无盒） 700ml</p>
+							<div class="clearfix"><span class="highlight">￥285.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/75e7047c-2c82-4674-aa1c-1059a9fc0c68M.jpg">
+							<p>马爹利xo 700ml</p>
+							<div class="clearfix"><span class="highlight">￥1398.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/75e7047c-2c82-4674-aa1c-1059a9fc0c68M.jpg">
+							<p>人头马特优香槟干邑XO 700ml</p>
+							<div class="clearfix"><span class="highlight">￥1299.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/75e7047c-2c82-4674-aa1c-1059a9fc0c68M.jpg">
+							<p>人头马CLUB特优香槟干邑 700ml</p>
+							<div class="clearfix"><span class="highlight">￥688.00</span></div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<ul class="brand">
+				<li>
+					<img alt="" src="img/zhihuashi.jpg" style="display: inline;">
+					<a title="" href="#"><span>芝华士</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/rentouma.jpg" style="display: inline;">
+					<a title="" href="#"><span>人头马</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/madieli.jpg" style="display: inline;">
+					<a title="" href="#"><span>马爹利</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/baijiade.jpg" style="display: inline;">
+					<a title="" href="#"><span>百加得</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/bailitian.jpg" style="display: inline;">
+					<a title="" href="#"><span>百利甜</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/futejia.jpg" style="display: inline;">
+					<a title="" href="#"><span>绝对伏特加</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/jiekedanni.jpg" style="display: inline;">
+					<a title="" href="#"><span>杰克丹尼</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/bailingtan.jpg" style="display: inline;">
+					<a title="" href="#"><span>百龄坛</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/shenlan.jpg" style="display: inline;">
+					<a title="" href="#"><span>深蓝</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/hongguangchang.jpg" style="display: inline;">
+					<a title="" href="#"><span>红广场</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/mengninatianshi.jpg" style="display: inline;">
+					<a title="" href="#"><span>蒙蒂娜天使</span></a>
+				</li>
+				<li class="small">
+					<img alt="" src="img/zunnihuojia.jpg" style="display: inline;">
+					<a title="" href="#"><span>尊尼获加</span></a>
+				</li>
+			</ul>
+		</div>
+		<div id="floor-other" class="w zj-floor">
+			<h1><i></i>其它</h1>
+			<ul class="tab clearfix">
+				<li class="">热卖</li>
+				<li class="">预调酒</li>
+				<li class="">黄酒</li>
+				<li class="select">酒具/礼盒</li>
+				<li>
+					<a title="" href="#">更多</a>
+				</li>
+			</ul>
+			<p class="tab-st clearfix" style="padding-left: 1042px;"><i></i></p>
+			<div class="tab-sidebar" style="background-image:url(img/yutiaojiu.jpg);background-color:#92d3df;">
+				<ul class="clearfix">
+					<li>
+						<a title="" href="#">拉菲皮盒</a>
+					</li>
+					<li>
+						<a title="" href="#" target="_blank">红酒杯</a>
+					</li>
+					<li>
+						<a title="" href="#">手提袋</a>
+					</li>
+					<li>
+						<a title="" href="#">香槟杯</a>
+					</li>
+					<li>
+						<a title="" href="#">海马刀</a>
+					</li>
+					<li>
+						<a title="" href="#">松木盒</a>
+					</li>
+					<li>
+						<a title="" href="#">慕尼黑礼盒</a>
+					</li>
+					<li>
+						<a title="" href="#">醒酒器</a>
+					</li>
+				</ul>
+				<a title="" href="#"></a>
+			</div>
+			<div class="tab-siderecom">
+				<a title="" href="#"><img alt="" src="img/zuiqing.jpg" style="display: inline;"></a>
+				<a title="" href="#"><img alt="" src="img/yidaohong.jpg" style="display: inline;"></a>
+			</div>
+			<div class="tab-con">
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/a169414d-0fa4-472e-8cff-47f39ce382c3M.jpg" style="display: inline;">
+							<p>42°泸州老窖浓香老窖青瓷 500ml（2瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥89.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/myz1.png" style="display: inline;">
+							</div>
+							<img alt="" src="img/9d54d59d-ce32-4063-99fe-335561735a7fM.jpg" style="display: inline;">
+							<p>52°泸州窖酒陶坛老酒500ml</p>
+							<div class="clearfix"><span class="highlight">￥188.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/0fbc0076-8c51-42db-aaea-97eb747e5a45M.jpg" style="display: inline;">
+							<p>12°尧喝货清爽型黄酒500ml</p>
+							<div class="clearfix"><span class="highlight">￥19.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/myz1.png" style="display: inline;">
+							</div>
+							<img alt="" src="img/2ab7dfe3-6f39-48d9-a5e2-28f27bd6d047M.jpg" style="display: inline;">
+							<p>52°千年老窖镖局高粱酒 500ml</p>
+							<div class="clearfix"><span class="highlight">￥69.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/c6f54723-69cf-4af6-a602-e83bf97ff1eeM.jpg" style="display: inline;">
+							<p>52°出口型白西凤绵柔凤香型500ml（6瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥399.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/0743c47d-2176-4891-84d9-bb67a84fe32dM.jpg" style="display: inline;">
+							<p>42°天佑德青稞酒海拔2600 500ml</p>
+							<div class="clearfix"><span class="highlight">￥98.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/dejbj.png" style="display: inline;">
+							</div>
+							<img alt="" src="img/f57a07dc-1db8-4605-ba49-a0ad1d9a8f16M.jpg" style="display: inline;">
+							<p>52°鸭溪窖-古酿 500ml （6瓶装） </p>
+							<div class="clearfix"><span class="highlight">￥389.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<div class="qian">
+								<img alt="" src="img/blank.gif">
+							</div>
+							<img alt="" src="img/6fa9d22b-3d1d-41cb-ac58-4c02ec50a232M.jpg" style="display: inline;">
+							<p>43°红星蓝瓶八年陈酿 500ml （12瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥379.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/6bc47c8b-bfba-495f-b285-bb9421bb50e3M.jpg" style="display: inline;">
+							<p>40°绝对伏特加苹果梨味700ml</p>
+							<div class="clearfix"><span class="highlight">￥119.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/273d9608-9155-4dc8-9de2-3434a340a486M.jpg" style="display: inline;">
+							<p>5°深蓝伏特加预调酒（配制酒）蓝莓味275ml</p>
+							<div class="clearfix"><span class="highlight">￥25.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/e69efa3c-113f-46a1-8ba9-6df3080f3955M.jpg" style="display: inline;">
+							<p>波士bols绿薄荷力娇酒 700ml</p>
+							<div class="clearfix"><span class="highlight">￥99.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/05329415-87bb-43d5-b63f-9a07f5fb9b61M.jpg" style="display: inline;">
+							<p>法国葫芦绿薄荷酒 700ml</p>
+							<div class="clearfix"><span class="highlight">￥99.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/7ada7507-bd7c-4d5e-a2fb-fcbbbc4b4b31M.jpg" style="display: inline;">
+							<p>百加得冰锐朗姆预调酒蜜桃味 275ml</p>
+							<div class="clearfix"><span class="highlight">￥11.90</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/34fb7cbb-18e7-41f3-af1c-e6cc759b53a4M.jpg" style="display: inline;">
+							<p>锐澳RIO鸡尾酒 6瓶组合装（6种口味）275ml</p>
+							<div class="clearfix"><span class="highlight">￥69.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/8d0881e5-584f-4d65-8159-498c2e9a172cM.jpg" style="display: inline;">
+							<p>3.8°锐澳RIO鸡尾酒朗姆酒青柠味275ml（2瓶装）</p>
+							<div class="clearfix"><span class="highlight">￥28.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/2cec0e92-5090-4f79-b578-38b134e35c63M.jpg" style="display: inline;">
+							<p>3.8°锐澳RIO鸡尾酒预调酒紫葡萄味275ml</p>
+							<div class="clearfix"><span class="highlight">￥15.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/0fbc0076-8c51-42db-aaea-97eb747e5a45M.jpg" style="display: inline;">
+							<p>12°尧喝货清爽型黄酒500ml</p>
+							<div class="clearfix"><span class="highlight">￥19.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/48d087e6-fe20-46fb-9fac-eedaff12d010M.jpg" style="display: inline;">
+							<p>12°尧喝货醇酿黄酒500ml</p>
+							<div class="clearfix"><span class="highlight">￥29.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/1972bb6a-aaf0-4048-945a-47abe7fc5df7M.jpg" style="display: inline;">
+							<p>古越龙山花雕五年陈 500ml</p>
+							<div class="clearfix"><span class="highlight">￥59.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/679f0fdd-d1f7-4c50-ae68-7a00c0cbc26bM.jpg" style="display: inline;">
+							<p>唐宋冰雕 500ml</p>
+							<div class="clearfix"><span class="highlight">￥19.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" tag="lazy" data-original="http://img1.zhongjiu.com.cn/Resource/ProductPic/P563/66bf4f86-0eb1-4e84-b6bc-e1269e799f05M.jpg" src="http://img1.zhongjiu.com.cn/Resource/ProductPic/P563/66bf4f86-0eb1-4e84-b6bc-e1269e799f05M.jpg" style="display: inline;">
+							<p>石库门上海老酒红标 500ml</p>
+							<div class="clearfix"><span class="highlight">￥58.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/d9fdfafa-3092-4ced-919c-cfc627924fb7M.jpg" style="display: inline;">
+							<p>女儿红金标六年头道原酿 500ml</p>
+							<div class="clearfix"><span class="highlight">￥39.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="img">
+							<img alt="" src="img/8e1aadf7-45c5-42b1-82bf-39f722ee7e83M.jpg" style="display: inline;">
+							<p>10°仙林青梅实酒 330ml</p>
+							<div class="clearfix"><span class="highlight">￥59.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/0f2674a8-8e07-448c-8af7-d40f58bb6301M.jpg" style="display: inline;">
+							<p>塔牌冰醇 500ml</p>
+							<div class="clearfix"><span class="highlight">￥39.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: block;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/fbf27165-aa5f-49d3-99b9-a7009afc5322M.jpg" style="display: inline;">
+							<p>慕尼黑双支皮质礼盒</p>
+							<div class="clearfix"><span class="highlight">￥79.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" tag="lazy" data-original="http://img1.zhongjiu.com.cn/Resource/ProductPic/P565/317b771c-f1da-4dde-81b9-d7b36da70cd8M.jpg" src="http://img1.zhongjiu.com.cn/Resource/ProductPic/P565/317b771c-f1da-4dde-81b9-d7b36da70cd8M.jpg" style="display: inline;">
+							<p>拉菲皮盒</p>
+							<div class="clearfix"><span class="highlight">￥89.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/65d8a541-198e-418c-9548-12da271a0775M.jpg" style="display: inline;">
+							<p>双支葡萄酒精美手提皮袋</p>
+							<div class="clearfix"><span class="highlight">￥65.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/c53786bd-893c-4e3c-8df4-3f00d00fb303M.jpg" style="display: inline;">
+							<p>松木六只装礼盒(平放版)</p>
+							<div class="clearfix"><span class="highlight">￥99.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/7560ff9f-0efb-4bac-b397-c59ab781e968M.jpg" style="display: inline;">
+							<p>百利甜酒礼盒 750ml</p>
+							<div class="clearfix"><span class="highlight">￥149.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/2a96ad7c-b310-4503-950f-9767b18ccd5dM.jpg" style="display: inline;">
+							<p>张裕四支装大礼盒（礼盒装）750ml*2 375ml*2</p>
+							<div class="clearfix"><span class="highlight">￥179.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/a4afad75-def9-48f6-8b5a-112274d0e5acM.jpg" style="display: inline;">
+							<p>尊尼获加红牌调配苏格兰威士忌 700ml（礼盒装） </p>
+							<div class="clearfix"><span class="highlight">￥159.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/d9cc7f8e-4e38-409d-a477-64df66a00f5eM.jpg" style="display: inline;">
+							<p>仙山露甜味起泡葡萄酒礼盒装 750ml*2</p>
+							<div class="clearfix"><span class="highlight">￥118.00</span></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix" style="display: none;">
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/blank.gif">
+							<p>松木六只装翻盖式礼盒</p>
+							<div class="clearfix"><span class="highlight">￥69.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/blank.gif">
+							<p>慕尼黑单支皮质礼盒</p>
+							<div class="clearfix"><span class="highlight">￥69.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/blank.gif">
+							<p>慕尼黑六支皮质礼盒 </p>
+							<div class="clearfix"><span class="highlight">￥99.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/blank.gif">
+							<p>葡萄藤双支礼盒</p>
+							<div class="clearfix"><span class="highlight">￥49.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/blank.gif">
+							<p>慕尼黑双支皮质礼盒</p>
+							<div class="clearfix"><span class="highlight">￥79.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/blank.gif">
+							<p>松木六只装礼盒(平放版)</p>
+							<div class="clearfix"><span class="highlight">￥99.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/blank.gif">
+							<p>葡萄藤单支礼盒</p>
+							<div class="clearfix"><span class="highlight">￥29.00</span></div>
+						</a>
+					</li>
+					<li>
+						<a title="" href="#">
+							<img alt="" src="img/blank.gif">
+							<p>松木单只装翻盖式礼盒</p>
+							<div class="clearfix"><span class="highlight">￥49.00</span></div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<ul class="brand">
+				<li>
+					<img alt="" src="img/jinjiu.jpg" style="display: inline;">
+					<a title="" href="#"><span>劲酒</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/tuopai.jpg" style="display: inline;">
+					<a title="" href="#"><span>沱牌</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/xianshanlu.jpg" style="display: inline;">
+					<a title="" href="#"><span>仙山露</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/lanjue.jpg" style="display: inline;">
+					<a title="" href="#"><span>澜爵</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/benfu.jpg" style="display: inline;">
+					<a title="" href="#"><span>奔富</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/laobaigan.jpg" style="display: inline;">
+					<a title="" href="#"><span>衡水老白干</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/hongxing.jpg" style="display: inline;">
+					<a title="" href="#"><span>红星</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/kongfujia.jpg" style="display: inline;">
+					<a title="" href="#"><span>孔府家</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/jiugui.jpg" style="display: inline;">
+					<a title="" href="#"><span>酒鬼</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/huaxia.jpg" style="display: inline;">
+					<a title="" href="#"><span>华夏长城</span></a>
+				</li>
+				<li>
+					<img alt="" src="img/tongtian.jpg" style="display: inline;">
+					<a title="" href="#"><span>通天</span></a>
+				</li>
+				<li class="small">
+					<img alt="" src="img/mengdinatianshi.jpg" style="display: inline;">
+					<a title="" href="#"><span>蒙蒂娜天使</span></a>
+				</li>
+			</ul>
+		</div>
+		<div id="footer">
+			<div class="ensure">
+				<ul class="w clearfix">
+					<li><i class="icon-zpbz"></i>
+						<h3>品质保障</h3>
+						<p>厂家直接 真品防伪</p>
+					</li>
+					<li><i class="icon-lj"></i>
+						<h3>酒类O2O</h3>
+						<p>线上线下标准化</p>
+					</li>
+					<li><i class="icon-th"></i>
+						<h3>7天无理由退货</h3>
+						<p>拆封无条件退货</p>
+					</li>
+					<li><i class="icon-ps"></i>
+						<h3>快速安全</h3>
+						<p>专业配送 安全送达</p>
+					</li>
+					<li><i class="icon-kb"></i>
+						<h3>百万口碑</h3>
+						<p>400万用户的认可</p>
+					</li>
+					<li><i class="icon-fw"></i>
+						<h3>金牌服务</h3>
+						<p>7*12小时贴心服务</p>
+					</li>
+				</ul>
+			</div>
+			<div class="service">
+				<div class="w clearfix">
+					<dl>
+						<dt>购物指南</dt>
+						<dd>
+							<a title="" href="#">购物流程</a>
+						</dd>
+						<dd>
+							<a title="" href="#">常见问题</a>
+						</dd>
+						<dd>
+							<a title="" href="#">帮助中心</a>
+						</dd>
+						<dd>
+							<a title="" href="#">会员协议</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>购物配送</dt>
+						<dd>
+							<a title="" href="#">99免运费</a>
+						</dd>
+						<dd>
+							<a title="" href="#">配送说明</a>
+						</dd>
+						<dd>
+							<a title="" href="#">快递查询</a>
+						</dd>
+						<dd>
+							<a title="" href="#">验货与签收</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>支付方式</dt>
+						<dd>
+							<a title="" href="#">货到付款</a>
+						</dd>
+						<dd>
+							<a title="" href="#">支付宝</a>
+						</dd>
+						<dd>
+							<a title="" href="#">银联 信用卡</a>
+						</dd>
+						<dd>
+							<a title="" href="#">在线支付9.9折</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>售后服务</dt>
+						<dd>
+							<a title="" href="#">服务承诺</a>
+						</dd>
+						<dd>
+							<a title="" href="#">退款说明</a>
+						</dd>
+						<dd>
+							<a title="" href="#">退换货政策</a>
+						</dd>
+						<dd>
+							<a title="" href="">退换货流程</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>服务保障</dt>
+						<dd>
+							<a title="" href="javascript:;">真品防伪，四码合一</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;">7天无条件退货</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;">7*12小时贴心服务</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;">30分钟快速响应</a>
+						</dd>
+					</dl>
+					<dl class="web">
+						<dt>手机中酒</dt>
+						<dd>下载移动客户端</dd>
+					</dl>
+					<dl class="weixin">
+						<dt>中酒微信</dt>
+						<dd>
+							<a title="" href="#">中酒官方微信</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="link">
+				<a title="" href="#">关于中酒</a>
+				<a title="" href="#">媒体报道 </a>
+				<a title="" href="#">商务合作</a>
+				<a title="" href="#">品牌入驻</a>
+				<a title="" href="#">加入中酒</a>
+				<a title="" href="#"> 商家加盟</a>
+				<a title="" href="#">联系我们</a>
+			</div>
+			<div class="copyright">
+				<p>Copyright © 2016 中酒网(www.zhongjiu.cn) 版权所有 京ICP备12022216号-2 | 京公网安备 11010502026701 | 购买前请确认达到法定饮酒年龄！中酒网不销售任何含酒精产品给18岁以下人士！</p>
+				<p>中酒时代酒业（北京）有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 地址：北京市朝阳区百子湾路16号百子园5号楼A单元106号&nbsp;&nbsp;&nbsp;&nbsp;电话：010-87703553</p>
+				<div class="clearfix">
+					<a title="" href="#">经营性网站备份信息</a>
+					<a title="" href="#">绿色通道企业</a>
+					<a title="" href="#">诚信网站</a>
+					<a title="" href="#">安全联盟实名验证</a>
+					<a title="" href="#">电商理事会副理事长单位</a>
+				</div>
+			</div>
+		</div>
+		<div class="right_nav" style="bottom: 400px; display:none">
+			<div class="right_nav_box">
+				<ul class="right_nav_list">
+					<li>
+						<a href="http://www.wenjuan.com/s/je6bMb/" target="_blank" style="background: url(img/jiang-d.jpg) left center no-repeat; color:#ffffff;"></a>
+					</li>
+					<li>
+						<a href="http://pro.zhongjiu.cn/20160307/tyd.html">天佑德青稞酒</a>
+					</li>
+					<li>
+						<a href="http://shopping.zhongjiu.cn/">购物车</a>
+					</li>
+					<li class="back_top">
+						<a href="javascript:;">返回顶部</a>
+					</li>
+					<li>
+						<a href="" style="background:url(img/jiang-w.jpg) left center no-repeat; height:141px; width:99px;color:#ffffff;"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+
+</html>

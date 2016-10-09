@@ -1,0 +1,524 @@
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+address, cite, dfn, em, i, var {
+    font-style: normal;
+}
+p {
+    display: block;
+ }
+a {
+    text-decoration: none;
+    color: #333;
+}
+img {
+    border: 0 none;
+    vertical-align: top;
+}
+ul,ol,dl{list-style: none;}
+.wrap {
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    top: 0;
+    position: fixed;
+    background: #000;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    display: block;
+}
+.tcImg {
+    width: 700px;
+    height: 440px;
+    position: fixed;
+    z-index: 999999;
+    top: 50%;
+    left: 50%;
+    background: url(../img/tc.png);
+    margin-top: -220px;
+    margin-left: -350px;
+    z-index: 999;
+    /* display: none; */
+   display: block;
+}
+.close {
+    width: 43px;
+    height: 43px;
+    display: block;
+    position: absolute;/*绝对定位参考的是包含快，不一定是父元素   */
+    right: 0;
+    top: 0;
+    z-index: 99;
+    cursor: pointer;
+}
+.tcImg a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+#banner {height: 360px;background-color: #fcefbb;}
+.w {z-index: 2;position: relative;width: 1180px;margin: 0 auto;}
+.notice {
+    position: absolute;
+    right: 0px;
+    /* margin: 9px auto 11px; */
+    width: 200px;
+    height: 360px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.notice h2 {
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.notice a {
+    color: #666;
+    font-size: 12px;
+}
+.fr {
+    float: right;
+ }
+ 
+.notice .icon-trum {
+    display: inline-block;
+    width: 16px;
+    height: 36px;
+    margin-right: 8px;
+    vertical-align: middle;
+    font-weight: normal;
+    background: url(../img/icon_index.png) -240px -73px no-repeat;
+}
+.notice ul {
+    height: 120px;
+    padding: 4px 10px 20px;
+    background-color: #fff9e9;
+}
+.notice ul li {
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+ }
+.notice ul li:first-child a {
+    color: #b81c22;
+}
+.notice a {
+    color: #666;
+    font-size: 12px;
+}
+.notice b {
+    margin-right: 0.5em;
+    font-weight: bold;
+}
+.notice p {
+    height: 180px;
+    background-color: #efefef;
+}
+.notice p img {
+    width: 100%;
+    height: 100%;
+}
+.flexslider {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+    background: url(../img/loading.gif) 50% no-repeat;
+}
+.flexslider ul{position: relative;z-index: 1;}
+.flexslider ul li{position: absolute;width:100%;height: 360px;display: none;}
+.flexslider ul .flexslider-first{display: block;}
+.flexslider ul img{vertical-align: bottom;}
+.flash-btn{position: absolute;bottom:10px;z-index: 3;text-align: center;width:100%;height:20px;}
+.flash-btn span{line-height: 20px;display: inline-block;width:20px;height: 20px;margin:0 5px;border-radius: 50px;text-align: center;overflow: hidden;color: #fff;cursor: pointer;background: url(../img/icon_index.png) left -400px no-repeat;}
+.flash-btn .active{background:#c00;}
+.notice ul .active{color:#c00};
+.zj-sale h1 {
+    height: 64px;
+    line-height: 64px;
+    background: url(../img/bg-slash.jpg) center center repeat-x;
+}
+.zj-sale h1>span:first-child {
+    font-size: 24px;
+    padding-right: 10px;
+    background-color: #fff;
+}
+.zj-sale .tab {
+    float: right;
+    margin-top: -64px;
+    padding-left: 5px;
+    background-color: #fff;
+}
+
+.zj-sale .tab li {
+    float: left;
+    width: 62px;
+    height: 64px;
+    overflow: hidden;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 64px;
+    font-size: 13px;
+    color: #666;
+    cursor: pointer;
+ }
+ .zj-sale .tab li.select {
+    background: url(../img/icon_index.png) -320px -63px no-repeat;
+    color: #fff;
+}
+.zj-sale .tab-con {
+    width: 100%;
+    overflow: hidden;
+ }
+ .zj-sale .tab-con ul:first-child {
+    display: block;
+}
+.zj-sale .tab-con ul {
+    display: none;
+    width: 1200px;
+}
+#brand-sale .tab-con li {
+	position: relative;
+    float: left;
+    width: 280px;
+    height: 180px;
+    margin: 0 20px 20px 0;
+    overflow: hidden;
+}
+#brand-sale .tab-con li img {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+ }
+ #time-sale {
+    position: relative;
+}
+
+.zj-sale h1 {
+    height: 64px;
+    line-height: 64px;
+    background: url(../img/bg-slash.jpg) center center repeat-x;
+}
+
+#time-sale h1 span:first-child {
+    padding-right: 16px;
+}
+
+#time-sale .clock {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 111px;
+    border-left: 1px solid #999;
+    line-height: 24px;
+    font-size: 14px;
+    color: #666;
+    background-color: #fff;
+}
+#time-sale .clock i{
+	display: inline-block;
+	width:16px;
+	height:16px;
+	vertical-align: middle;
+	margin: 0 8px 0 14px;
+	background: url(../img/icon_index.png)0 -242px no-repeat;
+}
+
+#time-sale .tab-con {
+    height: 284px;
+}
+#time-sale .tab-con li {
+    float: left;
+    width: 178px;
+    height: 282px;
+    overflow: hidden;
+    margin-right: 20px;
+    border: 1px solid #d7d7d7;
+}
+#time-sale .tab-con li a {
+    display: block;
+    height: 100%;
+}
+#time-sale .tab-con li img {
+    width: 178px;
+    height: 178px;
+    padding: 11px 0px;
+}   
+.zj-floor h1 {
+    height: 32px;
+    margin: 20px 0 11px;
+    font-size: 24px;
+} 
+#floor-bai h1 i {
+    background: url(../img/icon_index.png) -80px -242px no-repeat;
+}
+.zj-floor h1 i {
+    display: inline-block;
+    width: 25px;
+    height: 32px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+.zj-floor .tab {
+    float: right;
+    margin-top: -46px;
+ }
+ .zj-floor .tab li {
+    float: left;
+    width: 92px;
+    height: 46px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 46px;
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+}
+.zj-floor .tab li.select {
+    font-weight: bold;
+    color: #b81c22;
+}
+.clearfix:after {
+    display: block;
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+}
+.zj-floor .tab-st {
+    position: relative;
+    height: 2px;
+    padding-left: 577px;
+    background-color: #b81c22;
+}
+.zj-floor .tab-st i {
+    position: absolute;
+    top: -5px;
+    width: 0;
+    height: 0;
+    border-width: 0 4px 5px;
+    border-color: transparent transparent #b81c22 transparent;
+    border-style: solid;
+  }
+  #floor-bai .tab-sidebar {
+    background: #76caff url(http://img1.zhongjiu.com.cn/indexImg/temp/tab_sidebar1.jpg) center bottom no-repeat;
+}
+.zj-floor .tab-sidebar {
+    float: left;
+    width: 199px;
+    height: 560px;
+    overflow: hidden;
+    border-right: 1px solid #e8e8e8;
+}
+.zj-floor .tab-sidebar ul {
+    padding: 20px 0 20px 16px;
+    width: 186px;
+}
+.zj-floor .tab-sidebar>a {
+    display: block;
+    height: 360px;
+}
+.zj-floor .tab-sidebar ul {
+    padding: 20px 0 20px 16px;
+    width: 186px;
+}
+.zj-floor .tab-sidebar li {
+    position: relative;
+    float: left;
+    width: 74px;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 18px 12px 0;
+    text-align: center;
+}
+.zj-floor .tab-sidebar li a {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: #fff;
+    background: url(../img/icon_index.png) -400px 0 no-repeat;
+}
+.zj-floor .tab-sidebar li a:hover {
+    width: 82px;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+    top: -2px;
+    left: -4px;
+    font-size: 14px;
+    text-decoration: underline;
+    background: url(../img/icon_index.png) -400px -80px no-repeat;
+}
+.zj-floor .tab-siderecom {
+    float: right;
+    width: 180px;
+    overflow: hidden;
+}
+.zj-floor .tab-siderecom a {
+    float: left;
+    width: 100%;
+}
+.zj-floor .tab-siderecom img {
+    width: 100%;
+    height: 280px;
+}
+.zj-floor .tab-con {
+    margin: 0 180px 0 200px;
+    height: 560px;
+    overflow: hidden;
+}
+.zj-floor .tab-con li {
+    float: left;
+    width: 199px;
+    height: 279px;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+ }
+ .zj-floor .tab-con li a {
+    display: block;
+    height: 100%;
+    position: relative;
+}
+.zj-floor .tab-con li img {
+    width: 178px;
+    height: 178px;
+    padding: 6px 10px;
+}
+.zj-floor .tab-con li p {
+    height: 40px;
+    padding: 0 16px;
+}
+.zj-floor .tab-con li div {
+    margin-top: 8px;
+    padding: 0 16px;
+}
+.zj-floor .tab-con li div span {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.highlight {
+    color: #b81c22;
+}
+.zj-floor .brand {
+    display: inline-block;
+    border: 1px solid #e6e6e6;
+    height: 64px;
+    margin-top: 20px;
+}
+.zj-floor .brand li {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100%;
+    cursor: pointer;
+    overflow: hidden;
+}
+.zj-floor .brand li img {
+    width: 100%;
+    height: 100%;
+}
+.zj-floor .brand a {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+    padding: 0 12px;
+    text-align: center;
+    background: transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B3000000,endColorstr=#B3000000);
+    zoom: 1;
+    background: rgba(0,0,0,0.7);
+}
+.zj-floor .brand a span {
+    display: table-cell;
+    width: 76px;
+    height: 66px;
+    height: 44px\9;
+    padding-top: 20px\9;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #fff;
+}
+.zj-floor .brand li.small {
+    width: 78px;
+}
+.zj-floor .tab-con li a .qian {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+}
+.zj-floor .tab-con li a .qian img {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    margin: 0;
+ }
+ #floor-hong h1 i {
+    background: url(http://img1.zhongjiu.com.cn/indexImg/perm/icon_index.png) -160px -242px no-repeat;
+}
+#floor-yang h1 i {
+    background: url(http://img1.zhongjiu.com.cn/indexImg/perm/icon_index.png) -240px -242px no-repeat;
+}
+#floor-other h1 i {
+    background: url(http://img1.zhongjiu.com.cn/indexImg/perm/icon_index.png) -320px -242px no-repeat;
+}
+.right_nav {
+    margin-left: 600px;
+    position: fixed;
+    left: 50%;
+    bottom: 300px;
+    width: 99px;
+    z-index: 12;
+    display: none;
+}
+.right_nav_box {
+    bottom: 0;
+    display: block;
+    height: 100%;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 99px;
+}
+.right_nav_list li {
+    width: 99px;
+    height: 28px;
+    margin-bottom: 2px;
+}
+.right_nav_list li a {
+    width: 99px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+    font-family: '宋体';
+    display: block;
+    background: #dedede;
+    text-align: center;
+    color: #646464;
+}

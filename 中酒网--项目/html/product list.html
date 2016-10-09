@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/public.css">
+		<link rel="stylesheet" href="../css/product list.css">
+		<script src="../js/jquery-1.11.3.js"></script>
+		<script src="../js/public.js"></script>
+		<script src="../js/jquery.page.js"></script>
+		<script src='../js/product list.js'></script>
+		<script src="../js/product list2.js"></script>
+		
+	</head>
+
+	<body>
+		<div class="wrap"></div>
+		<div class="tcImg">
+			<span class="close"></span>
+			<a href="#"></a>
+		</div>
+		<div id='top-lead'>
+			<div class="box1-wrap">
+				<a title="顶通" href="#" target="_blank"></a>
+				<!--需要对a进行操作才能跳转如click事件-->
+			</div>
+		</div>
+		<div id="header">
+			<div class="header-content">
+				<ul class='header-left '>
+					<li class="header-left-li1"><i class="icon-home"></i>
+						<a href="#">中酒首页</a>
+					</li>
+					<li>Hi,欢迎来中酒</li>
+					<li>
+						<a href="#">请登录</a>
+					</li>
+					<li>
+						<a href="#" class='header-left-lastli'>注册</a>
+					</li>
+				</ul>
+				<ul class="header-right">
+					<li><i class="header-right-li1"></i>
+						<a href="#">我的中酒</a>
+					</li>
+					<li><i class="icon-goweb"></i>
+						<a href="#">手机版</a>
+					</li>
+					<li>
+						<a href="#">帮助中心</a>
+					</li>
+					<li><i class="icon-call"></i>订购热线：<strong>400-798-9999</strong></li>
+					<li>
+						<a href="#"><strong>【重要公告】</strong></a>
+					</li>
+					<li>
+						<span class="weibo-img">
+							<img width="30" height="30" src="../img/weibo.png">
+							<img class="weibo" src="../img/weibo2.png" >
+						</span>
+					</li>
+					<li>
+						<span class="weixin-img">
+							<img width="20" height="20" src="../img/weixin.png">
+							<img class="weixina" src="../img/weixin2.jpg" >
+						</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="logowrap">
+			<div class='logo fl'>
+				<a href='#' class="logo-a"></a>
+				<div class="gif">
+					<a href="#">
+						<img src='../img/0919gif.gif' />
+					</a>
+				</div>
+			</div>
+			<div class="search_box fl">
+				<div class='search_txtwrap fl'>
+					<input type="text" value="" class="search_txt" id="searchInput">
+					<ul class="search_list" id="searchResult">
+
+					</ul>
+				</div>
+				<div class="search_btnwrap fl"><input type="button" value="搜  索" class='search_btn' /></div>
+				<div class="hot-search fl">
+					<h2>热门搜索：</h2>
+					<a title="" href="#">买一赠一</a>
+					<a title="" href="#">新人特权</a>
+					<a title="" href="#">五粮液</a>
+					<a title="" href="#">茅台</a>
+					<a title="" href="#">国台</a>
+					<a title="" href="#">泸州老窖</a>
+				</div>
+			</div>
+			<dl class="shopcar">
+				<dt>
+			 		<h3>
+			 			<i class="icon-car"></i>
+			 		    <a href="#">我的购物车</a>
+			 		    <span class="icon-count">
+			 		    	<i id="countId">2</i>
+			 		    	
+			 		    </span>
+			 		    <i class="arrow"></i>
+			 		</h3>
+			 	</dt>
+				<dd>
+					<h4></h4>
+					<!--以后购物车的东西-->
+				</dd>
+			</dl>
+		</div>
+		<div id="main-nav">
+			<div class="main-connav">
+				<div class='main-connav-l'>
+					<h2>全部商品分类</h2>
+					<div>
+						<h3>
+							<i class="icon-bai"></i>
+							<a href="#">名优白酒</a>
+							<i class="icon-tri"></i>
+						</h3>
+						<div class='main-hide-div'>
+							<div class="hide-l">
+								<dl>
+									<dt>品牌</dt>
+									<dd><span>茅台</span><span>五粮液</span><span>国台</span><span>泸州老窖</span><span>剑南春</span><span>洋河</span><span>汾酒</span><span>小品</span><span>天佑德</span><span>小糊涂仙</span><span>郎酒</span><span>杜康</span><span>古井</span><span>衡水老白干</span><span>孔府家</span></dd>
+								</dl>
+								<dl>
+									<dt>品种</dt>
+									<dd><span>酱香型</span><span>绵柔型</span><span>浓香型</span><span>清香型</span><span>特香型</span><span>董香型</span><span>小品</span></dd>
+								</dl>
+								<dl>
+									<dt>产地</dt>
+									<dd><span>贵州</span><span>江西</span><span>四川</span><span>江苏</span><span>山西</span><span>山东</span><span>内蒙</span><span>河南</span></dd>
+								</dl>
+							</div>
+							<dl class="hide-r">
+								<dt>促销活动</dt>
+								<dd>
+									<a href="#"><img src="../img/0919guanggao.jpg" /></a>
+									<a href="#"><img src="../img/0810guanggao.jpg" /> </a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div>
+						<h3>
+							<i class="icon-hong"></i>
+							<a href="#">葡萄酒/红酒</a>
+							<i class="icon-tri"></i>
+						</h3>
+						<div class='main-hide-div'>
+							<div class="hide-l">
+								<dl>
+									<dt>品牌</dt>
+									<dd><span>拉菲</span><span>佩西</span><span>张裕</span><span>伊莎特</span><span>黄尾袋鼠</span><span>乐船</span><span>小龙船</span><span>圣蒂斯</span><span>澜觉</span><span>奔富</span><span>康迪</span><span>美圣世家</span><span>中级庄</span><span>通天</span><span>马克斯威</span><span>特拉托</span></dd>
+								</dl>
+								<dl>
+									<dt>品种</dt>
+									<dd><span>干红葡萄酒</span><span>干白葡萄酒</span><span>起泡酒/香槟</span><span>冰酒</span><span>果酒</span><span>甜桃红</span><span>甜白</span></dd>
+								</dl>
+								<dl>
+									<dt>产地</dt>
+									<dd><span>法国</span><span>西班牙</span><span>智利</span><span>阿根廷</span><span>澳大利亚</span><span>南非</span><span>中国</span><span>美国</span></dd>
+								</dl>
+							</div>
+							<dl class="hide-r">
+								<dt>促销活动</dt>
+								<dd>
+									<a href="#"><img src="../img/0323lafeiguanggao.jpg" /></a>
+									<a href="#"><img src="../img/0920hyguanggao.jpg" /> </a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div>
+						<h3>
+							<i class="icon-yang"></i>
+							<a href="#">洋酒</a>
+							<i class="icon-tri"></i>
+						</h3>
+						<div class='main-hide-div'>
+							<div class="hide-l">
+								<dl>
+									<dt>品牌</dt>
+									<dd><span>马爹利</span><span>兄弟</span><span>皇家贝斯</span><span>人头马</span><span>芝华士</span><span>深蓝</span><span>百利甜</span><span>绝对伏特加</span><span>杰克丹尼</span><span>百龄坛</span><span>红广场</span><span>百加得</span><span>尊尼获加</span><span>叶卡</span><span>轩尼诗</span><span>皇家礼炮</span><span>摩根船长</span></dd>
+								</dl>
+								<dl>
+									<dt>品种</dt>
+									<dd><span>聚会用酒</span><span>商务用酒</span></dd>
+								</dl>
+								<dl>
+									<dt>产地</dt>
+									<dd><span>国内</span><span>法国</span><span>英国</span><span>美国</span></dd>
+								</dl>
+							</div>
+							<dl class="hide-r">
+								<dt>促销活动</dt>
+								<dd>
+									<a href="#"><img src="../img/yang3.jpg" /></a>
+									<a href="#"><img src="../img/yang4.jpg" /> </a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div>
+						<h3>
+							<i class="icon-pi"></i>
+							<a href="#">黄酒</a>
+							<i class="icon-tri"></i>
+						</h3>
+						<div class='main-hide-div'>
+							<div class="hide-l">
+								<dl>
+									<dt>品牌</dt>
+									<dd><span>塔牌</span><span>古越龙山</span><span>石库门</span><span>会稽山</span><span>女儿红</span><span>唐宋</span><span>劲酒</span><span>尧喝货</span></dd>
+								</dl>
+								<dl>
+									<dt>品种</dt>
+									<dd><span>聚会用酒</span><span>礼节拜访</span><span>婚庆用酒</span></dd>
+								</dl>
+								<dl>
+									<dt>价格</dt>
+									<dd><span>1-99</span><span>100-199</span><span>200-299</span></dd>
+								</dl>
+							</div>
+							<dl class="hide-r">
+								<dt>促销活动</dt>
+								<dd>
+									<a href="#"><img src="../img/huang1.jpg" /></a>
+									<a href="#"><img src="../img/huang2.jpg" /> </a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div>
+						<h3>
+							<i class="icon-li"></i>
+							<a href="#">礼品专区</a>
+							<i class="icon-tri"></i>
+						</h3>
+						<div class='main-hide-div'>
+							<div class="hide-l">
+								<dl>
+									<dt>品牌</dt>
+									<dd><span>国台</span><span>泸州老窖</span><span>牧童村</span><span>汾酒</span><span>拉菲</span><span>张裕</span><span>小橘屋</span></dd>
+								</dl>
+								<dl>
+									<dt>品种</dt>
+									<dd><span>酱香型</span><span>清香型</span><span>干红葡萄酒</span><span>起泡酒</span></dd>
+								</dl>
+								<dl>
+									<dt>产地</dt>
+									<dd><span>四川</span><span>贵州</span><span>陕西</span><span>法国</span></dd>
+								</dl>
+							</div>
+							<dl class="hide-r">
+								<dt>促销活动</dt>
+								<dd>
+									<a href="#"><img src="../img/0616tydguanggao.jpg" /></a>
+									<a href="#"><img src="../img/lihe.jpg" /> </a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+					<div>
+						<h3>
+							<i class="icon-hun"></i>
+							<a href="#">婚庆专用</a>
+							<i class="icon-tri"></i>
+						</h3>
+						<div class='main-hide-div'>
+							<div class="hide-l">
+								<dl>
+									<dt>品牌</dt>
+									<dd><span>五粮液</span><span>茅台</span><span>牛栏山</span><span>剑南春</span><span>西凤</span><span>沱牌</span></dd>
+								</dl>
+								<dl>
+									<dt>品种</dt>
+									<dd><span>白酒</span><span>红酒</span></dd>
+								</dl>
+								<dl>
+									<dt>产地</dt>
+									<dd><span>贵州</span><span>四川</span><span>南非</span></dd>
+								</dl>
+							</div>
+							<dl class="hide-r">
+								<dt>促销活动</dt>
+								<dd>
+									<a href="#"><img src="../img/0704mkswguanggao.jpg" /></a>
+									<a href="#"><img src="../img/0920bguanggao.jpg" /> </a>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<ul class="main-connav-r">
+					<li>
+						<a href="#">商城</a>
+					</li>
+					<li>
+						<a href="#">闪购</a>
+					</li>
+					<li>
+						<a href="#">白酒专场</a>
+					</li>
+					<li>
+						<a href="#">红酒专场</a>
+					</li>
+					<li>
+						<a href="#">青青稞酒</a>
+					</li>
+					<li>
+						<a href="#">美国优选</a>
+					</li>
+					<li>
+						<a href="#">新品驾到</a>
+					</li>
+					<li>
+						<a href="#">中酒咨询</a>
+					</li>
+					<li>
+						<a href="#">会员专区<em class="hot"></em></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="sl_wrap">
+			<div class="w_max clearfix">
+				<div class="sl_mbx">
+					<a href="http://www.zhongjiu.cn">首页</a> &gt;
+					<a href="bx0x511.html">小龙船</a>
+				</div>
+				<div class="sl_lf">
+					<div class="sl_top">所有分类</div>
+					<div class="sl_con">
+						<h3 class="show"><b onclick="typeExpandFor('t
+							ype_534',this)"></b><a href="bx1x511x0x534.html" class="">葡萄酒</a></h3>
+					</div>
+					<div class="sl_top">热销排行榜</div>
+					<div class="sl_con2">
+						<ul class="clearfix">
+							<li>
+								<a class="con2_1" href="http://www.zhongjiu.cn/productdetail/2558.htm" target="_blank"><img src="http://img1.zhongjiu.com.cn/resource/productpic/p534/d422ad6c-e20c-44de-a974-32a59675d17em.jpg" width="160" height="160" alt="佩西精选干红葡萄酒 750ml（6瓶装）"></a>
+								<a class="con2_2" href="http://www.zhongjiu.cn/productdetail/2558.htm" target="_blank">佩西精选干红葡萄酒 750ml（6瓶装）</a>
+								<p class="con2_3"><span class="con2_3l">￥139.00</span><span class="con2_3r"><em></em><i class="pink">1714</i>个评论</span></p>
+							</li>
+							<li>
+								<a class="con2_1" href="http://www.zhongjiu.cn/productdetail/3568.htm" target="_blank"><img src="http://img1.zhongjiu.com.cn/resource/productpic/p534/374c1ed2-caf5-4657-92d9-86c7f4e48a9bm.jpg" width="160" height="160" alt="拉菲传奇波尔多 750ml（6瓶装）"></a>
+								<a class="con2_2" href="http://www.zhongjiu.cn/productdetail/3568.htm" target="_blank">拉菲传奇波尔多 750ml（6瓶装）</a>
+								<p class="con2_3"><span class="con2_3l">￥359.00</span><span class="con2_3r"><em></em><i class="pink">1629</i>个评论</span></p>
+							</li>
+							<li>
+								<a class="con2_1" href="http://www.zhongjiu.cn/productdetail/2964.htm" target="_blank"><img src="http://img1.zhongjiu.com.cn/resource/productpic/p534/028205a2-e825-4ca5-b997-2cfafe67070dm.jpg" width="160" height="160" alt="伊莎特红葡萄酒 750ml"></a>
+								<a class="con2_2" href="http://www.zhongjiu.cn/productdetail/2964.htm" target="_blank">伊莎特红葡萄酒 750ml</a>
+								<p class="con2_3"><span class="con2_3l">￥69.00</span><span class="con2_3r"><em></em><i class="pink">1257</i>个评论</span></p>
+							</li>
+							<li>
+								<a class="con2_1" href="http://www.zhongjiu.cn/productdetail/2165.htm" target="_blank"><img src="http://img1.zhongjiu.com.cn/resource/productpic/p534/92ddfe07-1ec6-4aa9-9d6c-048383d84a06m.jpg" width="160" height="160" alt="拉菲传奇波尔多 750ml"></a>
+								<a class="con2_2" href="http://www.zhongjiu.cn/productdetail/2165.htm" target="_blank">拉菲传奇波尔多 750ml</a>
+								<p class="con2_3"><span class="con2_3l">￥79.00</span><span class="con2_3r"><em></em><i class="pink">2027</i>个评论</span></p>
+							</li>
+							<li>
+								<a class="con2_1" href="http://www.zhongjiu.cn/productdetail/3061.htm" target="_blank"><img src="http://img1.zhongjiu.com.cn/resource/productpic/p534/6bc456ee-ce74-4626-83e5-584aae0dcd9em.jpg" width="160" height="160" alt="大成澜爵尊贵品丽珠干红葡萄酒 750ml"></a>
+								<a class="con2_2" href="http://www.zhongjiu.cn/productdetail/3061.htm" target="_blank">大成澜爵尊贵品丽珠干红葡萄酒 750ml</a>
+								<p class="con2_3"><span class="con2_3l">￥198.00</span><span class="con2_3r"><em></em><i class="pink">209</i>个评论</span></p>
+							</li>
+							<li>
+								<a class="con2_1" href="http://www.zhongjiu.cn/productdetail/2535.htm" target="_blank"><img src="http://img1.zhongjiu.com.cn/resource/productpic/p534/6e3b8ad3-00b2-4bda-b524-ebffc121181fm.jpg" width="160" height="160" alt="澳洲黄尾袋鼠珍藏加本力苏维翁葡萄酒 750ml"></a>
+								<a class="con2_2" href="http://www.zhongjiu.cn/productdetail/2535.htm" target="_blank">澳洲黄尾袋鼠珍藏加本力苏维翁葡萄酒 750ml</a>
+								<p class="con2_3"><span class="con2_3l">￥189.00</span><span class="con2_3r"><em></em><i class="pink">0</i>个评论</span></p>
+							</li>
+							<li>
+								<a class="con2_1" href="http://www.zhongjiu.cn/productdetail/2101.htm" target="_blank"><img src="http://img1.zhongjiu.com.cn/resource/productpic/p534/624d88bb-0840-415c-8362-21a1b0d8337am.jpg" width="160" height="160" alt="拉菲珍藏波尔多干红红葡萄酒 750ml"></a>
+								<a class="con2_2" href="http://www.zhongjiu.cn/productdetail/2101.htm" target="_blank">拉菲珍藏波尔多干红红葡萄酒 750ml</a>
+								<p class="con2_3"><span class="con2_3l">￥169.00</span><span class="con2_3r"><em></em><i class="pink">1287</i>个评论</span></p>
+							</li>
+							<li>
+								<a class="con2_1" href="http://www.zhongjiu.cn/productdetail/3122.htm" target="_blank"><img src="http://img1.zhongjiu.com.cn/resource/productpic/p534/dd414a6b-8ad6-4f95-b883-cb7c78bec690m.jpg" width="160" height="160" alt="拉菲巴斯克卡本妮苏维翁红葡萄酒 750ml"></a>
+								<a class="con2_2" href="http://www.zhongjiu.cn/productdetail/3122.htm" target="_blank">拉菲巴斯克卡本妮苏维翁红葡萄酒 750ml</a>
+								<p class="con2_3"><span class="con2_3l">￥69.00</span><span class="con2_3r"><em></em><i class="pink">50</i>个评论</span></p>
+							</li>
+							<li>
+								<a class="con2_1" href="http://www.zhongjiu.cn/productdetail/662.htm" target="_blank"><img src="http://img1.zhongjiu.com.cn/resource/productpic/p534/5a5897f5-b147-4dd2-acc5-75b9557ee510m.jpg" width="160" height="160" alt="佩西精选干红葡萄酒 750ml"></a>
+								<a class="con2_2" href="http://www.zhongjiu.cn/productdetail/662.htm" target="_blank">佩西精选干红葡萄酒 750ml</a>
+								<p class="con2_3"><span class="con2_3l">￥39.00</span><span class="con2_3r"><em></em><i class="pink">1517</i>个评论</span></p>
+							</li>
+							<li>
+								<a class="con2_1" href="http://www.zhongjiu.cn/productdetail/3414.htm" target="_blank"><img src="http://img1.zhongjiu.com.cn/resource/productpic/p534/20f2801a-0f37-44e8-84ea-80d601eb44d9m.jpg" width="160" height="160" alt="11.5°张裕干红葡萄酒750ml（6瓶装）"></a>
+								<a class="con2_2" href="http://www.zhongjiu.cn/productdetail/3414.htm" target="_blank">11.5°张裕干红葡萄酒750ml（6瓶装）</a>
+								<p class="con2_3"><span class="con2_3l">￥158.00</span><span class="con2_3r"><em></em><i class="pink">2447</i>个评论</span></p>
+							</li>
+						</ul>
+					</div>
+					<!--最近浏览商品-->
+					<div class="left_06_box">
+					</div>
+				</div>
+				<div class="sl_rg">
+					<div class="rg_list">
+						<div class="list_top">热卖商品推荐</div>
+						<ul class="list_con clearfix">
+							<li data-hot="0">
+								<a class="list1" href="http://www.zhongjiu.cn/productdetail/2705.htm" target="_blank"><img src="http://img1.zhongjiu.com.cn/resource/productpic/p534/cd4603ae-ee8f-45ff-bb9f-ca90f198a40dm.jpg" width="100" height="100" alt="小龙船红葡萄酒(限量版) 750ml"></a>
+								<a class="list2" href="http://www.zhongjiu.cn/productdetail/2705.htm" target="_blank">小龙船红葡萄酒(限量版) 750ml</a>
+								<p class="list3">特价：<i>￥175.00</i></p>
+								<a class="list4" href="http://www.zhongjiu.cn/productdetail/2705.htm" target="_blank">立即抢购</a>
+							</li>
+							<li data-hot="0">
+								<a class="list1" href="http://www.zhongjiu.cn/productdetail/3564.htm" target="_blank"><img src="http://img1.zhongjiu.com.cn/resource/productpic/p534/644ba248-e168-4d0c-b8a5-91d47440cc7dm.jpg" width="100" height="100" alt="小龙船红葡萄酒 750ml（6瓶装）"></a>
+								<a class="list2" href="http://www.zhongjiu.cn/productdetail/3564.htm" target="_blank">小龙船红葡萄酒 750ml（6瓶装）</a>
+								<p class="list3">特价：<i>￥649.00</i></p>
+								<a class="list4" href="http://www.zhongjiu.cn/productdetail/3564.htm" target="_blank">立即抢购</a>
+							</li>
+							<li data-hot="0">
+								<a class="list1" href="http://www.zhongjiu.cn/productdetail/1177.htm" target="_blank"><img src="http://img1.zhongjiu.com.cn/resource/productpic/p534/67fe88fb-2d32-4248-90d1-32e49d9fdf25m.jpg" width="100" height="100" alt="小龙船红葡萄酒 750ml"></a>
+								<a class="list2" href="http://www.zhongjiu.cn/productdetail/1177.htm" target="_blank">小龙船红葡萄酒 750ml</a>
+								<p class="list3">特价：<i>￥109.00</i></p>
+								<a class="list4" href="http://www.zhongjiu.cn/productdetail/1177.htm" target="_blank">立即抢购</a>
+							</li>
+							<li data-hot="0">
+								<a class="list1" href="http://www.zhongjiu.cn/productdetail/2706.htm" target="_blank"><img src="http://img1.zhongjiu.com.cn/resource/productpic/p534/c30916f4-bd9f-4d78-bb55-ed75fd7108acm.jpg" width="100" height="100" alt="小龙船红葡萄酒  375ml"></a>
+								<a class="list2" href="http://www.zhongjiu.cn/productdetail/2706.htm" target="_blank">小龙船红葡萄酒 375ml</a>
+								<p class="list3">特价：<i>￥95.00</i></p>
+								<a class="list4" href="http://www.zhongjiu.cn/productdetail/2706.htm" target="_blank">立即抢购</a>
+							</li>
+						</ul>
+					</div>
+					<div class="rg_zs">
+						<div class="zst" id="zstBrand"><i id="search-keyword" class="pink"></i> 搜索到<i class="pink">4</i>件相关商品</div>
+						<div class="zsm">
+							<div class="zsm_md bt_n clearfix">
+								<div class="zsml">您已选择：</div>
+								<div class="zsmr">
+									<div class="zsm_btn">
+										<a class="btn_cz" href="bx1x511x0x0x0x0x0x0x0x0x0x0x0x0x0.html">重置选择</a>
+									</div>
+									<div class="c_con">
+										<ul>
+											<li title="小龙船">
+												<a rel="nofollow" href="http://s.zhongjiu.cn/search/index?keyword=%e5%b0%8f%e9%be%99%e8%88%b9">品牌：<strong>小龙船</strong><b></b></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="zsm_md clearfix" id="filterStatisDefault">
+								<div class="zsml">产地：</div>
+								<div class="zsmr">
+									<div class="zsm_btn" id="" style="display:none;">
+										<a class="btn_mul" href="javascript:void(0);" onclick="MultipleChoice(this,&quot;Efficacy&quot;);" style="display:none;"><b>+</b>多选</a>
+									</div>
+									<div id="StatisMore" class="zsm_fl">
+										<span><a data-id="1036" rel="nofollow" href="bx1x511x0x0x0x0x1036.html">法国</a></span>
+									</div>
+								</div>
+							</div>
+							<div class="zsm_md clearfix" id="filterPirceDefault">
+								<div class="zsml">价格：</div>
+								<div class="zsmr">
+									<div class="zsm_fl">
+										<span><a rel="nofollow" href="bx1x511x0x0x0x0x0x0x0x0x0x1x0x0x0.html">1-99</a></span><span><a rel="nofollow" href="bx1x511x0x0x0x0x0x0x0x0x0x2x0x0x0.html">100-199</a></span><span><a rel="nofollow" href="bx1x511x0x0x0x0x0x0x0x0x0x5x0x0x0.html">500-799</a></span>
+									</div>
+								</div>
+							</div>
+							<div class="zsm_md clearfix" style="display:block;" id="zsm_mdSuitable">
+								<div class="zsml">种类：</div>
+								<div class="zsmr">
+									<div class="zsm_btn" id="" style="display:none;">
+										<a class="btn_mul" href="javascript:void(0);" onclick="MultipleChoice(this,&quot;SuitableCrowd&quot;);"><b>+</b>多选</a>
+									</div>
+									<div id="SuitableCrowdMore" class="zsm_fl">
+										<span><a data-id="1043" rel="nofollow" href="bx1x511x0x0x0x0x0x0x1043x0x0x0x0x0x0.html">干红葡萄酒</a></span>
+									</div>
+								</div>
+							</div>
+							<div class="zsm_md clearfix" style="display:block;" id="zsm_Apply">
+								<div class="zsml">适用：</div>
+								<div class="zsmr">
+									<div class="zsm_btn" id="" style="display:none;">
+										<a class="btn_mul" href="javascript:void(0);" onclick="MultipleChoice(this,&quot;Apply&quot;);" style="display:none;"><b>+</b>多选</a>
+									</div>
+									<div id="ApplyMore" class="zsm_fl">
+										<span><a data-id="1080" rel="nofollow" href="bx1x511x0x0x0x1080x0x0x0x0x0x0x0x0x0.html">商务用酒</a></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="zsb" id="zsbMore" style="display:none;">
+							<span class="zsb_zk" onclick="moreItem(0);"><b></b>更多选项</span>
+						</div>
+						<div class="zsb" id="zsbShou" style="display:none;">
+							<span class="zsb_zk zsb_sq" onclick="moreItem(1);"><b></b>收起</span>
+						</div>
+					</div>
+					<div class="rg_px clearfix">
+						<div class="rg_px1">
+							<span>排序：</span>
+							<a class="cur" href="javascript:void(0);">默认</a>
+							<a rel="nofollow" href="bx1x511x1x0x0x0x0x0x0x0x0x0x0x0x0.html">销量</a>
+							<a rel="nofollow" href="bx1x511x4x0x0x0x0x0x0x0x0x0x0x0x0.html">价格</a>
+							<a rel="nofollow" href="bx1x511x5x0x0x0x0x0x0x0x0x0x0x0x0.html">评论数</a>
+							<a rel="nofollow" href="bx1x511x7x0x0x0x0x0x0x0x0x0x0x0x0.html">上架时间</a>
+						</div>
+						<div class="rg_px2">
+							<div class="px2_con au clearfix">
+								<a rel="nofollow" class="px_list" href="bx1x511x0x0x0x0x0x0x0x0x0x0x0x0x1.html">特价</a>
+								<a rel="nofollow" class="px_list" href="bx1x511x0x0x0x0x0x0x0x0x0x0x0x1x0.html">有货</a>
+							</div>
+						</div>
+						<div class="rg_px3">
+							<span class="px_num">1/1</span>
+						</div>
+					</div>
+					<div class="rg_sl_list">
+						<ul class="clearfix">
+							<!--<li id="product-2705" class="" data-id="1" data-code="2705" data-type="534" data-brand="511" data-sort="0" data-score="6.36690950393677" data-sale-amount="0">
+								<a class="list1" href="http://www.zhongjiu.cn/productdetail/2705.htm" target="_blank">
+									<img _src="http://img1.zhongjiu.com.cn/resource/productpic/p534/cd4603ae-ee8f-45ff-bb9f-ca90f198a40dm.jpg" width="220" height="220" alt="小龙船红葡萄酒(限量版) 750ml" id="img009804899351986562" src="http://img1.zhongjiu.com.cn/resource/productpic/p534/cd4603ae-ee8f-45ff-bb9f-ca90f198a40dm.jpg" type1="1">
+								</a>
+								<a class="list2" href="http://www.zhongjiu.cn/productdetail/2705.htm" style="display:block;with:198px;" target="_blank">
+									小龙船红葡萄酒(限量版) 750ml
+									<span style="color:red; margin-left:5px;">
+										
+									</span>
+									
+								</a>
+								<p class="list3"><span class="jg" id="price-2705"><em class="dol">￥</em>175.00</span>
+									<a class="pl_num product-comment-total-2705" href="http://www.zhongjiu.cn/productdetail/2705.htm" rel="nofollow"><em></em>1359个评价</a>
+								</p>
+								<p class="list5">
+									<a id="buy_2705" class="shop" href="javascript:void(0);" onclick="AddProductItem1('2705','list')">加入购物车</a>
+									<a id="fav_2705" class="save" href="javascript:void(0);" onclick="shoucangSku('2705');">收藏</a>
+								</p>
+							</li>-->
+							<!--<li id="product-2706" class="" data-id="2" data-code="2706" data-type="534" data-brand="511" data-sort="0" data-score="6.36690950393677" data-sale-amount="0">
+								<a class="list1" href="http://www.zhongjiu.cn/productdetail/2706.htm" target="_blank"><img _src="http://img1.zhongjiu.com.cn/resource/productpic/p534/c30916f4-bd9f-4d78-bb55-ed75fd7108acm.jpg" width="220" height="220" alt="小龙船红葡萄酒  375ml" id="img06211954155783053" src="http://img1.zhongjiu.com.cn/resource/productpic/p534/c30916f4-bd9f-4d78-bb55-ed75fd7108acm.jpg" type1="1"></a>
+								<a class="list2" href="http://www.zhongjiu.cn/productdetail/2706.htm" style="display:block;with:198px;" target="_blank">小龙船红葡萄酒 375ml<span style="color:red; margin-left:5px;"></span></a>
+								<p class="list3"><span class="jg" id="price-2706"><em class="dol">￥</em>95.00</span>
+									<a class="pl_num product-comment-total-2706" href="http://www.zhongjiu.cn/productdetail/2706.htm" rel="nofollow"><em></em>0个评价</a>
+								</p>
+								<p class="list5">
+									<a id="buy_2706" class="shop" href="javascript:void(0);" onclick="AddProductItem1('2706','list')">加入购物车</a>
+									<a id="fav_2706" class="save" href="javascript:void(0);" onclick="shoucangSku('2706');">收藏</a>
+								</p>
+							</li>
+							<li id="product-1177" class="lf mr0" data-id="3" data-code="1177" data-type="534" data-brand="511" data-sort="0" data-score="6.36690950393677" data-sale-amount="0">
+								<a class="list1" href="http://www.zhongjiu.cn/productdetail/1177.htm" target="_blank"><img _src="http://img1.zhongjiu.com.cn/resource/productpic/p534/67fe88fb-2d32-4248-90d1-32e49d9fdf25m.jpg" width="220" height="220" alt="小龙船红葡萄酒 750ml" id="img0057207194917938464" src="http://img1.zhongjiu.com.cn/resource/productpic/p534/67fe88fb-2d32-4248-90d1-32e49d9fdf25m.jpg" type1="1"></a>
+								<a class="list2" href="http://www.zhongjiu.cn/productdetail/1177.htm" style="display:block;with:198px;" target="_blank">小龙船红葡萄酒 750ml<span style="color:red; margin-left:5px;"></span></a>
+								<p class="list3"><span class="jg" id="price-1177"><em class="dol">￥</em>109.00</span>
+									<a class="pl_num product-comment-total-1177" href="http://www.zhongjiu.cn/productdetail/1177.htm" rel="nofollow"><em></em>973个评价</a>
+								</p>
+								<p class="list5">
+									<a id="buy_1177" class="shop" href="javascript:void(0);" onclick="AddProductItem1('1177','list')">加入购物车</a>
+									<a id="fav_1177" class="save" href="javascript:void(0);" onclick="shoucangSku('1177');">收藏</a>
+								</p>
+							</li>
+							<li id="product-3564" class="lf mr0" data-id="4" data-code="3564" data-type="534" data-brand="511" data-sort="0" data-score="6.36690950393677" data-sale-amount="0">
+								<a class="list1" href="http://www.zhongjiu.cn/productdetail/3564.htm" target="_blank"><img _src="http://img1.zhongjiu.com.cn/resource/productpic/p534/644ba248-e168-4d0c-b8a5-91d47440cc7dm.jpg" width="220" height="220" alt="小龙船红葡萄酒 750ml（6瓶装）" id="img09675380699132814" src="http://img1.zhongjiu.com.cn/resource/productpic/p534/644ba248-e168-4d0c-b8a5-91d47440cc7dm.jpg" type1="1"></a>
+								<a class="list2" href="http://www.zhongjiu.cn/productdetail/3564.htm" style="display:block;with:198px;" target="_blank">小龙船红葡萄酒 750ml（6瓶装）<span style="color:red; margin-left:5px;"></span></a>
+								<p class="list3"><span class="jg" id="price-3564"><em class="dol">￥</em>649.00</span>
+									<a class="pl_num product-comment-total-3564" href="http://www.zhongjiu.cn/productdetail/3564.htm" rel="nofollow"><em></em>1417个评价</a>
+								</p>
+								<p class="list5">
+									<a id="buy_3564" class="shop" href="javascript:void(0);" onclick="AddProductItem1('3564','list')">加入购物车</a>
+									<a id="fav_3564" class="save" href="javascript:void(0);" onclick="shoucangSku('3564');">收藏</a>
+								</p>
+							</li>-->
+							<div class="pages"></div>
+						</ul>
+						<!--<script type="text/javascript">
+							if($('#thirdN').hasClass('tt_scale')) {
+								var lilist = $('div.rg_sl_list>ul>li').removeClass('mr0 lf');
+								$.each(lilist, function(i, n) {
+									if(i % 3 == 2) {
+										$(n).addClass('mr0 lf');
+									}
+								});
+							}
+						</script>
+						<!--99click-->
+						<!--<script type="text/javascript">
+							var _ozuid = '0';
+							var _ozprm = 'keywords99=';
+						</script>-->
+						<!--99click-->
+						<div class="search_paging clearfix">
+							<div class="searchp_all">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="ensure">
+				<ul class="w clearfix" id='w1'>
+					<li><i class="icon-zpbz"></i>
+						<h3>品质保障</h3>
+						<p>厂家直接 真品防伪</p>
+					</li>
+					<li><i class="icon-lj"></i>
+						<h3>酒类O2O</h3>
+						<p>线上线下标准化</p>
+					</li>
+					<li><i class="icon-th"></i>
+						<h3>7天无理由退货</h3>
+						<p>拆封无条件退货</p>
+					</li>
+					<li><i class="icon-ps"></i>
+						<h3>快速安全</h3>
+						<p>专业配送 安全送达</p>
+					</li>
+					<li><i class="icon-kb"></i>
+						<h3>百万口碑</h3>
+						<p>400万用户的认可</p>
+					</li>
+					<li><i class="icon-fw"></i>
+						<h3>金牌服务</h3>
+						<p>7*12小时贴心服务</p>
+					</li>
+				</ul>
+			</div>
+			<div class="service"id="w2">
+				<div class="w clearfix" >
+					<dl>
+						<dt>购物指南</dt>
+						<dd>
+							<a title="" href="#">购物流程</a>
+						</dd>
+						<dd>
+							<a title="" href="#">常见问题</a>
+						</dd>
+						<dd>
+							<a title="" href="#">帮助中心</a>
+						</dd>
+						<dd>
+							<a title="" href="#">会员协议</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>购物配送</dt>
+						<dd>
+							<a title="" href="#">99免运费</a>
+						</dd>
+						<dd>
+							<a title="" href="#">配送说明</a>
+						</dd>
+						<dd>
+							<a title="" href="#">快递查询</a>
+						</dd>
+						<dd>
+							<a title="" href="#">验货与签收</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>支付方式</dt>
+						<dd>
+							<a title="" href="#">货到付款</a>
+						</dd>
+						<dd>
+							<a title="" href="#">支付宝</a>
+						</dd>
+						<dd>
+							<a title="" href="#">银联 信用卡</a>
+						</dd>
+						<dd>
+							<a title="" href="#">在线支付9.9折</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>售后服务</dt>
+						<dd>
+							<a title="" href="#">服务承诺</a>
+						</dd>
+						<dd>
+							<a title="" href="#">退款说明</a>
+						</dd>
+						<dd>
+							<a title="" href="#">退换货政策</a>
+						</dd>
+						<dd>
+							<a title="" href="">退换货流程</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>服务保障</dt>
+						<dd>
+							<a title="" href="javascript:;">真品防伪，四码合一</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;">7天无条件退货</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;">7*12小时贴心服务</a>
+						</dd>
+						<dd>
+							<a title="" href="javascript:;">30分钟快速响应</a>
+						</dd>
+					</dl>
+					<dl class="web">
+						<dt>手机中酒</dt>
+						<dd>下载移动客户端</dd>
+					</dl>
+					<dl class="weixin">
+						<dt>中酒微信</dt>
+						<dd>
+							<a title="" href="#">中酒官方微信</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="link">
+				<a title="" href="#">关于中酒</a>
+				<a title="" href="#">媒体报道 </a>
+				<a title="" href="#">商务合作</a>
+				<a title="" href="#">品牌入驻</a>
+				<a title="" href="#">加入中酒</a>
+				<a title="" href="#"> 商家加盟</a>
+				<a title="" href="#">联系我们</a>
+			</div>
+			<div class="copyright">
+				<p>Copyright © 2016 中酒网(www.zhongjiu.cn) 版权所有 京ICP备12022216号-2 | 京公网安备 11010502026701 | 购买前请确认达到法定饮酒年龄！中酒网不销售任何含酒精产品给18岁以下人士！</p>
+				<p>中酒时代酒业（北京）有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 地址：北京市朝阳区百子湾路16号百子园5号楼A单元106号&nbsp;&nbsp;&nbsp;&nbsp;电话：010-87703553</p>
+				<div class="clearfix">
+					<a title="" href="#">经营性网站备份信息</a>
+					<a title="" href="#">绿色通道企业</a>
+					<a title="" href="#">诚信网站</a>
+					<a title="" href="#">安全联盟实名验证</a>
+					<a title="" href="#">电商理事会副理事长单位</a>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>

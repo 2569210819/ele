@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/register.css" />
+		<script src="../js/jquery-1.11.3.js"></script>
+		<script src="../js/jquery.cookie.js"></script>
+		<script src="../js/register.js"></script>
+		
+	</head>
+	<body>
+		<div id="load_top">
+			<ul class="top-left fl">
+				<li class='top-l1'></li>
+				<li class="top-l2">登录</li>
+			</ul>
+			<ul class="top-right fr">
+				<li class="top-r1">100%正品</li>
+				<li class="top-r2">一时达</li>
+				<li class="top-r2">金牌客服</li>
+			</ul>
+		</div>
+		<div id='load-con'>
+			<div class='load-con-l'>
+				
+			</div>
+			<div class="load-con-r">
+				<div class="r-con">
+					<p class='r-link'>
+						我已经注册，马上<a href="#">登录>></a>
+					</p>
+					<div class="cell">
+		<!---有问题-->	<label class="" for="userId" id="userId_moren"></label>
+		<!--输入手机号-->	<input id="userId" type="text" class="text" placeholder="请输入手机号 " >
+         <!--验证成功-->	<span class="ok" id="userId_ok"></span>
+		<!--验证不成功-->	<div class="cell_hid" id="userId_error">
+							<span class="sanj"></span>
+							<span id="userId_error_content">请输入正确的手机号</span>
+						</div>
+					</div>
+					<div class="cell vcode" id="userId_email">
+						<label class="" for="yanZhengCode_email" id="yanZhengCode_email_moren"></label>
+		<!--输入验证码-->	<input type="text" class="text" id="yanZhengCode_email" placeholder="请输入验证码">
+		<!--验证成功-->	<span class="ok"  id="yanZhengCode_email_ok"></span>
+		<!--验证不成功-->	<div class="cell_hid" id="yanZhengCode_email_error">
+							<span class="sanj"></span>
+							<span id="yanZhengCode_email_error_content">请按右图输入验证码，不区分大小写</span>
+						</div>
+						<div class="c_img"><a><img src="../img/yanZhengCodeNew.png"></a></div>
+						<div class="c_ts"><a href="#">看不清？<br>换一张</a></div>
+					</div>
+					<div class="cell vcode" id="userId_moblie">
+						<label class="" for="yanZhengCode" id="yanZhengCode_moren"></label>
+		<!--输入校验码-->	<input type="text" class="text" id="yanZhengCode" placeholder="请输入验证码">
+		<!--验证成功-->	<span class="ok" id="yanZhengCode_ok"></span>
+		<!--验证不成功-->	<div class="cell_hid" id="yanZhengCode_error">
+							<span class="sanj"></span>
+							<span id="yanZhengCode_error_content">验证码错误！</span>
+						</div>
+						<div class="c_yz" id="moblieCss"><a>免费获取校验码</a></div>
+						<div id="sendCodeSuccess" ></div>
+					</div>
+					<div class="cell">
+						<label class="" for="passWord" id="passWord_moren"></label>
+		<!--输入密码-->	<input type="password" id="passWord" class="text" placeholder="请输入密码">
+		<!--验证成功-->	<span class="ok" id="passWord_ok"></span>
+		<!--验证不成功-->	<div class="cell_hid" id="passWord_error" >
+							<span class="sanj"></span>
+							<span id="passWord_error_content"></span>
+						</div>
+					</div>
+					<div class="cell">
+						<label class="" for="repeatPassWord" id="repeatPassWord_moren"></label>
+		<!--重新输入密码-->	<input id="repeatPassWord" type="password" class="text" placeholder="请输入确认密码" >
+		<!--验证成功-->	<span class="ok" id="repeatPassWord_ok"></span>
+		<!--验证不成功-->	<div class="cell_hid" id="repeatPassWord_error">
+							<span class="sanj"></span>
+							<span id="repeatPassWord_error_content">两次输入的密码不一致</span>
+						</div>
+				   </div>
+				   <div class="r_load">
+						<input id="r_load_btn" type="submit" class="r_load_btn" value="同意协议并注册" >
+				   </div>
+				   <p class="re_back_link" style="text-align:left;">
+						<a href="">《中酒网服务条款》</a>
+				   </p>
+				</div>
+			</div>
+		</div>
+		<div class="load_foot">
+			<p>Copyright © 2016 中酒网(www.zhongjiu.cn) 版权所有 京ICP备12022216号-2</p>
+			<p><i class="red">购买前请确认达到法定饮酒年龄！</i>中酒网不销售任何含酒精产品给18岁以下人士！</p>	
+		</div>
+		
+	</body>
+</html>

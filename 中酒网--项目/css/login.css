@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.r_rem {
+    height: 13px;
+    margin-bottom: 24px;
+}
+.r_rem .r_rem1 {
+    float: left;
+    background: url(../img/load1101.png) no-repeat -406px -197px;
+    height: 14px;
+    line-height: 14px;
+    padding-left: 20px;
+    float: left;
+    color: #666;
+    margin-right: 15px;
+    cursor: pointer;
+ }
+ .r_rem .r_rem2 {
+    color: #666;
+    float: left;
+    height: 14px;
+    line-height: 14px;
+}   
+.r_load_zc {
+    float: left;
+    color: #c8030a;
+    font-size: 14px;
+} 
+.r_other1 {
+    height: 24px;
+    line-height: 24px;
+}
+.r_other2 a {
+    background: url(../img/load1101.png) no-repeat;
+    float: left;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+.r_other2 a.ro1 {
+    background-position: -57px -192px;
+}
+.r_other2 a.ro2 {
+    background-position: -81px -192px;
+}
+.r_other2 a.ro3 {
+    background-position: -105px -192px;
+}
+#userId_ok{
+	display: none;
+}
+#userId_error{
+	display:none;
+}
+#passWord_ok{
+	display: none;
+}
+#passWord_error{
+	display: none;
+}
+.ro6{
+	display: none;
+}
+.ro5{
+	display: none;
+}
